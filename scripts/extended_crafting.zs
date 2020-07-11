@@ -1,0 +1,4 @@
+
+
+//RemoveAll
+craftingTable.removeByRegex("extendedcrafting:.*");

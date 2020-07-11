@@ -1,0 +1,7 @@
+*
+!*/
+!config/*
+!global_data_pack/test/*
+!kubejs/*
+!scripts/*
+!.gitignore

@@ -1,0 +1,11 @@
+{
+	"type":"sphere",
+	"stone":"minecraft:stone",
+	"ore":"kubejs:olivium_ore",
+	"count":1,
+	"rarity":50,
+	"density":1000,
+	"indicator": {
+		"blocks":"kubejs:olivium_ore"
+	}
+}

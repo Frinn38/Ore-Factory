@@ -1,0 +1,11 @@
+{
+	"type":"sphere",
+	"stone":"minecraft:stone",
+	"ore":"kubejs:rubium_ore",
+	"count":1,
+	"rarity":50,
+	"density":1000,
+	"indicator": {
+		"blocks":"kubejs:rubium_ore"
+	}
+}

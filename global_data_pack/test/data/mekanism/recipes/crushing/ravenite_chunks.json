@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "kubejs:ravenite_ore"
+    }
+  },
+  "output": {
+    "item": "kubejs:ravenite_chunks"
+  }
+}

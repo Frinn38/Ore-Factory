@@ -1,0 +1,38 @@
+events.listen('block.registry', function (event) {
+  event.create('saphirium_ore').material(block.material.rock).hardness(3).resistance(3).harvestTool(TOOL_TYPE_PICKAXE, 2)
+  event.create('rubium_ore').material(block.material.rock).hardness(3).resistance(3).harvestTool(TOOL_TYPE_PICKAXE, 2)
+  event.create('olivium_ore').material(block.material.rock).hardness(3).resistance(3).harvestTool(TOOL_TYPE_PICKAXE, 2)
+  event.create('bananium_ore').material(block.material.rock).hardness(3).resistance(3).harvestTool(TOOL_TYPE_PICKAXE, 2)
+  event.create('purpurite_ore').material(block.material.rock).hardness(3).resistance(3).harvestTool(TOOL_TYPE_PICKAXE, 2)
+  event.create('ravenite_ore').material(block.material.rock).hardness(3).resistance(3).harvestTool(TOOL_TYPE_PICKAXE, 2)
+})
+
+events.listen('item.registry', function (event) {
+	event.create('saphirium_chunks')
+	event.create('rubium_chunks')
+	event.create('olivium_chunks')
+	event.create('bananium_chunks')
+	event.create('purpurite_chunks')
+	event.create('ravenite_chunks')
+
+	event.create('saphirium_shard')
+	event.create('rubium_shard')
+	event.create('olivium_shard')
+	event.create('bananium_shard')
+	event.create('purpurite_shard')
+	event.create('ravenite_shard')
+
+	event.create('saphirium_clump')
+	event.create('rubium_clump')
+	event.create('olivium_clump')
+	event.create('bananium_clump')
+	event.create('purpurite_clump')
+	event.create('ravenite_clump')
+
+	event.create('saphirium_crystal')
+	event.create('rubium_crystal')
+	event.create('olivium_crystal')
+	event.create('bananium_crystal')
+	event.create('purpurite_crystal')
+	event.create('ravenite_crystal')
+})

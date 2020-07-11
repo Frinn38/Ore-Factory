@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "kubejs:purpurite_ore"
+    }
+  },
+  "output": {
+    "item": "kubejs:purpurite_chunks"
+  }
+}

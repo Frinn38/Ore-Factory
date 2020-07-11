@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "kubejs:bananium_ore"
+    }
+  },
+  "output": {
+    "item": "kubejs:bananium_chunks"
+  }
+}

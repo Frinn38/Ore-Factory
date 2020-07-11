@@ -1,0 +1,896 @@
+{
+	id: 2,
+	filename: "test",
+	order_index: 1,
+	title: "Welcome",
+	icon: "minecraft:grass_block",
+	quests: [
+		{
+			title: "Welcome",
+			x: 0.0d,
+			y: 0.0d,
+			shape: "square",
+			description: [
+				"Welcome to the pack",
+				"The objective of this pack is to find new ways to play by using a combination of both classic and brand new mods added to lots of tweaks.",
+				"The quests are here to show you the way in case of confusion."
+			],
+			id: 4,
+			tasks: [{
+				id: 5,
+				type: "checkmark",
+				title: "Welcome"
+			}]
+		},
+		{
+			title: "Here we go again",
+			icon: "minecraft:oak_log",
+			x: 1.5d,
+			y: 0.0d,
+			shape: "circle",
+			description: [
+				"You will need some wood to make your first tools, go punch some trees.",
+				"Note that vanilla tools are available for crafting but their durability is reduced to 1. In a first time you will have to use Silents Gears tools.",
+				"If you don't know this mod, the quests will show you the way."
+			],
+			dependencies: [I;
+				5,
+				4
+			],
+			dependency_requirement: "all_started",
+			id: 10,
+			tasks: [{
+				id: 11,
+				type: "item",
+				title: "Any minecraft:logs",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1,
+					tag: {
+						value: "minecraft:logs"
+					}
+				},
+				count: 16
+			}]
+		},
+		{
+			title: "Your first sword",
+			x: 3.0d,
+			y: 0.0d,
+			description: [
+				"Daggers are small swords, they also can be used to make Template Boards.",
+				"You can craft it with a Rough rod and any material (like wooden plank for example)."
+			],
+			dependencies: [I;10],
+			id: 12,
+			tasks: [{
+				id: 13,
+				type: "item",
+				title: "Craft a dagger",
+				icon: {
+					id: "silentgear:dagger",
+					Count: 1,
+					tag: {
+						SGear_UUIDLeast: -5276382105878986564L,
+						SGear_UUIDMost: -2002444298061264537L,
+						Damage: 0,
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:dagger_blade",
+											Count: 1,
+											tag: {
+												Materials: [{
+													Item: {
+														id: "minecraft:oak_planks",
+														Count: 1
+													},
+													Grade: "NONE",
+													ID: "silentgear:wood/oak"
+												}],
+												Color: 12096607
+											}
+										},
+										ID: "silentgear:dagger_blade"
+									},
+									{
+										Item: {
+											id: "silentgear:rough_rod",
+											Count: 1
+										},
+										ID: "silentgear:rod/rough"
+									}
+								]
+							},
+							Properties: {
+								ModVersion: "1.9.0+119",
+								Stats: {
+									"silentgear:harvest_speed": 1.76f,
+									"silentgear:harvest_level": 0.0f,
+									"silentgear:melee_damage": 2.0f,
+									"silentgear:reach_distance": -1.0f,
+									"silentgear:attack_speed": -1.2f,
+									"silentgear:rarity": 0.0f,
+									"silentgear:repair_efficiency": 2.0f,
+									"silentgear:enchantability": 13.2f,
+									"silentgear:ranged_speed": 0.0f,
+									"silentgear:ranged_damage": 0.0f,
+									"silentgear:durability": 38.94f,
+									"silentgear:magic_damage": 0.0f
+								},
+								synergy: 0.88f,
+								LockStats: 0,
+								Traits: [
+									{
+										Level: 1,
+										Name: "silentgear:flammable"
+									},
+									{
+										Level: 2,
+										Name: "silentgear:flexible"
+									},
+									{
+										Level: 1,
+										Name: "silentgear:jagged"
+									},
+									{
+										Level: 3,
+										Name: "silentgear:crude"
+									}
+								]
+							},
+							Rendering: {
+								Colors: {
+									rod: 7031049,
+									main: 12096607
+								}
+							}
+						}
+					}
+				},
+				item: {
+					id: "silentgear:dagger",
+					Count: 1,
+					tag: {
+						SGear_UUIDLeast: -5276382105878986564L,
+						SGear_UUIDMost: -2002444298061264537L,
+						Damage: 0,
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:dagger_blade",
+											Count: 1,
+											tag: {
+												Materials: [{
+													Item: {
+														id: "minecraft:oak_planks",
+														Count: 1
+													},
+													Grade: "NONE",
+													ID: "silentgear:wood/oak"
+												}],
+												Color: 12096607
+											}
+										},
+										ID: "silentgear:dagger_blade"
+									},
+									{
+										Item: {
+											id: "silentgear:rough_rod",
+											Count: 1
+										},
+										ID: "silentgear:rod/rough"
+									}
+								]
+							},
+							Properties: {
+								ModVersion: "1.9.0+119",
+								Stats: {
+									"silentgear:harvest_speed": 1.76f,
+									"silentgear:harvest_level": 0.0f,
+									"silentgear:melee_damage": 2.0f,
+									"silentgear:reach_distance": -1.0f,
+									"silentgear:attack_speed": -1.2f,
+									"silentgear:rarity": 0.0f,
+									"silentgear:repair_efficiency": 2.0f,
+									"silentgear:enchantability": 13.2f,
+									"silentgear:ranged_speed": 0.0f,
+									"silentgear:ranged_damage": 0.0f,
+									"silentgear:durability": 38.94f,
+									"silentgear:magic_damage": 0.0f
+								},
+								synergy: 0.88f,
+								LockStats: 0,
+								Traits: [
+									{
+										Level: 1,
+										Name: "silentgear:flammable"
+									},
+									{
+										Level: 2,
+										Name: "silentgear:flexible"
+									},
+									{
+										Level: 1,
+										Name: "silentgear:jagged"
+									},
+									{
+										Level: 3,
+										Name: "silentgear:crude"
+									}
+								]
+							},
+							Rendering: {
+								Colors: {
+									rod: 7031049,
+									main: 12096607
+								}
+							}
+						}
+					}
+				}
+			}]
+		},
+		{
+			title: "Templates",
+			icon: "silentgear:template_board",
+			x: 4.5d,
+			y: 0.0d,
+			description: ["Template Boards are needed to make Tool Templates."],
+			dependencies: [I;12],
+			id: 14,
+			tasks: [{
+				id: 15,
+				type: "item",
+				title: "Craft 12 Templates",
+				icon: {
+					id: "silentgear:template_board",
+					Count: 6
+				},
+				item: "silentgear:template_board",
+				count: 12
+			}]
+		},
+		{
+			title: "Pickaxe Template",
+			x: 6.0d,
+			y: 0.0d,
+			description: ["This Template can be used to make a pickaxe, but will be destroyed after use."],
+			dependencies: [I;14],
+			id: 16,
+			tasks: [{
+				id: 17,
+				type: "item",
+				title: "Craft a Pickaxe Template",
+				icon: "silentgear:template_pickaxe",
+				item: "silentgear:template_pickaxe"
+			}]
+		},
+		{
+			title: "The miner best friend",
+			icon: {
+				id: "silentgear:pickaxe",
+				Count: 1,
+				tag: {
+					SGear_UUIDLeast: -8156977732105147967L,
+					SGear_UUIDMost: -5985052015485956288L,
+					Damage: 0,
+					SGear_Data: {
+						Construction: {
+							Parts: [
+								{
+									Item: {
+										id: "silentgear:pickaxe_head",
+										Count: 1,
+										tag: {
+											Materials: [
+												{
+													Item: {
+														id: "minecraft:oak_planks",
+														Count: 1
+													},
+													Grade: "NONE",
+													ID: "silentgear:wood/oak"
+												},
+												{
+													Item: {
+														id: "minecraft:oak_planks",
+														Count: 1
+													},
+													Grade: "NONE",
+													ID: "silentgear:wood/oak"
+												},
+												{
+													Item: {
+														id: "minecraft:oak_planks",
+														Count: 1
+													},
+													Grade: "NONE",
+													ID: "silentgear:wood/oak"
+												}
+											],
+											Color: 12096607
+										}
+									},
+									ID: "silentgear:pickaxe_head"
+								},
+								{
+									Item: {
+										id: "minecraft:stick",
+										Count: 1
+									},
+									ID: "silentgear:rod/wood"
+								}
+							]
+						},
+						Properties: {
+							ModVersion: "1.9.0+119",
+							Stats: {
+								"silentgear:enchantability": 16.5f,
+								"silentgear:ranged_speed": 0.0f,
+								"silentgear:harvest_speed": 2.0f,
+								"silentgear:harvest_level": 0.0f,
+								"silentgear:ranged_damage": 0.0f,
+								"silentgear:durability": 59.0f,
+								"silentgear:melee_damage": 1.0f,
+								"silentgear:magic_damage": 0.0f,
+								"silentgear:attack_speed": -2.8f,
+								"silentgear:rarity": 0.5857864f,
+								"silentgear:repair_efficiency": 1.0f
+							},
+							synergy: 1.0f,
+							LockStats: 0,
+							Traits: [
+								{
+									Level: 1,
+									Name: "silentgear:flammable"
+								},
+								{
+									Level: 2,
+									Name: "silentgear:flexible"
+								},
+								{
+									Level: 1,
+									Name: "silentgear:jagged"
+								}
+							]
+						},
+						Rendering: {
+							Colors: {
+								rod: 9004839,
+								main: 12096607
+							}
+						}
+					}
+				}
+			},
+			x: 7.5d,
+			y: 0.0d,
+			description: [
+				"Now you can use your Pickaxe Template to make a pickaxe,",
+				"Note that you can also use Rough Rod to make the pickaxe if you don't have a Template, but the pickaxe stats will be weaker."
+			],
+			dependencies: [I;16],
+			id: 18,
+			tasks: [{
+				id: 20,
+				type: "item",
+				title: "Craft a Silents Gears pickaxe",
+				icon: {
+					id: "silentgear:pickaxe",
+					Count: 1,
+					tag: {
+						SGear_UUIDLeast: -8156977732105147967L,
+						SGear_UUIDMost: -5985052015485956288L,
+						Damage: 0,
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:pickaxe_head",
+											Count: 1,
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "minecraft:oak_planks",
+															Count: 1
+														},
+														Grade: "NONE",
+														ID: "silentgear:wood/oak"
+													},
+													{
+														Item: {
+															id: "minecraft:oak_planks",
+															Count: 1
+														},
+														Grade: "NONE",
+														ID: "silentgear:wood/oak"
+													},
+													{
+														Item: {
+															id: "minecraft:oak_planks",
+															Count: 1
+														},
+														Grade: "NONE",
+														ID: "silentgear:wood/oak"
+													}
+												],
+												Color: 12096607
+											}
+										},
+										ID: "silentgear:pickaxe_head"
+									},
+									{
+										Item: {
+											id: "minecraft:stick",
+											Count: 1
+										},
+										ID: "silentgear:rod/wood"
+									}
+								]
+							},
+							Properties: {
+								ModVersion: "1.9.0+119",
+								Stats: {
+									"silentgear:enchantability": 16.5f,
+									"silentgear:ranged_speed": 0.0f,
+									"silentgear:harvest_speed": 2.0f,
+									"silentgear:harvest_level": 0.0f,
+									"silentgear:ranged_damage": 0.0f,
+									"silentgear:durability": 59.0f,
+									"silentgear:melee_damage": 1.0f,
+									"silentgear:magic_damage": 0.0f,
+									"silentgear:attack_speed": -2.8f,
+									"silentgear:rarity": 0.5857864f,
+									"silentgear:repair_efficiency": 1.0f
+								},
+								synergy: 1.0f,
+								LockStats: 0,
+								Traits: [
+									{
+										Level: 1,
+										Name: "silentgear:flammable"
+									},
+									{
+										Level: 2,
+										Name: "silentgear:flexible"
+									},
+									{
+										Level: 1,
+										Name: "silentgear:jagged"
+									}
+								]
+							},
+							Rendering: {
+								Colors: {
+									rod: 9004839,
+									main: 12096607
+								}
+							}
+						}
+					}
+				},
+				item: {
+					id: "silentgear:pickaxe",
+					Count: 1,
+					tag: {
+						SGear_UUIDLeast: -6750166056381937896L,
+						SGear_UUIDMost: -6448842669660616031L,
+						Damage: 0,
+						SGear_Data: {
+							Construction: {},
+							Properties: {
+								Stats: {},
+								LockStats: 0
+							},
+							Rendering: {
+								Colors: {}
+							}
+						}
+					}
+				}
+			}]
+		},
+		{
+			title: "Getting an upgrade",
+			icon: {
+				id: "silentgear:pickaxe",
+				Count: 1,
+				tag: {
+					SGear_UUIDLeast: -7631754491402911577L,
+					SGear_UUIDMost: -4062308620179387866L,
+					Damage: 0,
+					SGear_Data: {
+						Construction: {
+							Parts: [
+								{
+									Item: {
+										id: "silentgear:pickaxe_head",
+										Count: 1,
+										tag: {
+											Materials: [
+												{
+													Item: {
+														id: "minecraft:infested_cobblestone",
+														Count: 1
+													},
+													Grade: "NONE",
+													ID: "silentgear:stone"
+												},
+												{
+													Item: {
+														id: "minecraft:infested_cobblestone",
+														Count: 1
+													},
+													Grade: "NONE",
+													ID: "silentgear:stone"
+												},
+												{
+													Item: {
+														id: "minecraft:infested_cobblestone",
+														Count: 1
+													},
+													Grade: "NONE",
+													ID: "silentgear:stone"
+												}
+											],
+											Color: 10132122
+										}
+									},
+									ID: "silentgear:pickaxe_head"
+								},
+								{
+									Item: {
+										id: "minecraft:stick",
+										Count: 1
+									},
+									ID: "silentgear:rod/wood"
+								}
+							]
+						},
+						Properties: {
+							ModVersion: "1.9.0+119",
+							Stats: {
+								"silentgear:enchantability": 5.5f,
+								"silentgear:ranged_speed": -0.22000001f,
+								"silentgear:harvest_speed": 4.0f,
+								"silentgear:harvest_level": 1.0f,
+								"silentgear:ranged_damage": 0.0f,
+								"silentgear:durability": 131.0f,
+								"silentgear:melee_damage": 2.0f,
+								"silentgear:magic_damage": 0.0f,
+								"silentgear:attack_speed": -2.8f,
+								"silentgear:rarity": 2.3431456f,
+								"silentgear:repair_efficiency": 1.0f
+							},
+							synergy: 1.0f,
+							LockStats: 0,
+							Traits: [{
+								Level: 1,
+								Name: "silentgear:ancient"
+							}]
+						},
+						Rendering: {
+							Colors: {
+								rod: 9004839,
+								main: 10132122
+							}
+						}
+					}
+				}
+			},
+			x: 9.0d,
+			y: 0.0d,
+			description: ["A wooden pickaxe can only mine stone, you should switch to a stone pickaxe as soon as you can."],
+			dependencies: [I;18],
+			id: 21,
+			tasks: [{
+				id: 22,
+				type: "item",
+				title: "Craft a Stone Pickaxe",
+				icon: {
+					id: "silentgear:pickaxe",
+					Count: 1,
+					tag: {
+						SGear_UUIDLeast: -7631754491402911577L,
+						SGear_UUIDMost: -4062308620179387866L,
+						Damage: 0,
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:pickaxe_head",
+											Count: 1,
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "minecraft:infested_cobblestone",
+															Count: 1
+														},
+														Grade: "NONE",
+														ID: "silentgear:stone"
+													},
+													{
+														Item: {
+															id: "minecraft:infested_cobblestone",
+															Count: 1
+														},
+														Grade: "NONE",
+														ID: "silentgear:stone"
+													},
+													{
+														Item: {
+															id: "minecraft:infested_cobblestone",
+															Count: 1
+														},
+														Grade: "NONE",
+														ID: "silentgear:stone"
+													}
+												],
+												Color: 10132122
+											}
+										},
+										ID: "silentgear:pickaxe_head"
+									},
+									{
+										Item: {
+											id: "minecraft:stick",
+											Count: 1
+										},
+										ID: "silentgear:rod/wood"
+									}
+								]
+							},
+							Properties: {
+								ModVersion: "1.9.0+119",
+								Stats: {
+									"silentgear:enchantability": 5.5f,
+									"silentgear:ranged_speed": -0.22000001f,
+									"silentgear:harvest_speed": 4.0f,
+									"silentgear:harvest_level": 1.0f,
+									"silentgear:ranged_damage": 0.0f,
+									"silentgear:durability": 131.0f,
+									"silentgear:melee_damage": 2.0f,
+									"silentgear:magic_damage": 0.0f,
+									"silentgear:attack_speed": -2.8f,
+									"silentgear:rarity": 2.3431456f,
+									"silentgear:repair_efficiency": 1.0f
+								},
+								synergy: 1.0f,
+								LockStats: 0,
+								Traits: [{
+									Level: 1,
+									Name: "silentgear:ancient"
+								}]
+							},
+							Rendering: {
+								Colors: {
+									rod: 9004839,
+									main: 10132122
+								}
+							}
+						}
+					}
+				},
+				item: {
+					id: "silentgear:pickaxe",
+					Count: 1,
+					tag: {
+						SGear_UUIDLeast: -7631754491402911577L,
+						SGear_UUIDMost: -4062308620179387866L,
+						Damage: 0,
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:pickaxe_head",
+											Count: 1,
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "minecraft:infested_cobblestone",
+															Count: 1
+														},
+														Grade: "NONE",
+														ID: "silentgear:stone"
+													},
+													{
+														Item: {
+															id: "minecraft:infested_cobblestone",
+															Count: 1
+														},
+														Grade: "NONE",
+														ID: "silentgear:stone"
+													},
+													{
+														Item: {
+															id: "minecraft:infested_cobblestone",
+															Count: 1
+														},
+														Grade: "NONE",
+														ID: "silentgear:stone"
+													}
+												],
+												Color: 10132122
+											}
+										},
+										ID: "silentgear:pickaxe_head"
+									},
+									{
+										Item: {
+											id: "minecraft:stick",
+											Count: 1
+										},
+										ID: "silentgear:rod/wood"
+									}
+								]
+							},
+							Properties: {
+								ModVersion: "1.9.0+119",
+								Stats: {
+									"silentgear:enchantability": 5.5f,
+									"silentgear:ranged_speed": -0.22000001f,
+									"silentgear:harvest_speed": 4.0f,
+									"silentgear:harvest_level": 1.0f,
+									"silentgear:ranged_damage": 0.0f,
+									"silentgear:durability": 131.0f,
+									"silentgear:melee_damage": 2.0f,
+									"silentgear:magic_damage": 0.0f,
+									"silentgear:attack_speed": -2.8f,
+									"silentgear:rarity": 2.3431456f,
+									"silentgear:repair_efficiency": 1.0f
+								},
+								synergy: 1.0f,
+								LockStats: 0,
+								Traits: [{
+									Level: 1,
+									Name: "silentgear:ancient"
+								}]
+							},
+							Rendering: {
+								Colors: {
+									rod: 9004839,
+									main: 10132122
+								}
+							}
+						}
+					}
+				}
+			}]
+		},
+		{
+			title: "Catch them all",
+			x: 9.0d,
+			y: 1.5d,
+			description: [
+				"There is 6 ores in this pack such as Saphirium, Rubium, Olivium, Bananium, Purpurite and Ravenite.",
+				"By processing and alloying these ores you will be able to make the classics ores (iron, gold, copper etc...) that will be needed for crafting.",
+				"All 6 ores are pretty common and the deposits are huges, in addition there is some hints at the surface above a deposit.",
+				"Grinding ores is not the objective of this pack, remember you have OreExcavation to quickly mine a full deposit."
+			],
+			hide_dependency_lines: 0,
+			dependencies: [I;21],
+			id: 23,
+			tasks: [
+				{
+					id: 24,
+					type: "item",
+					item: "kubejs:saphirium_ore",
+					count: 16
+				},
+				{
+					id: 32,
+					type: "item",
+					item: "kubejs:rubium_ore",
+					count: 16
+				},
+				{
+					id: 33,
+					type: "item",
+					item: "kubejs:olivium_ore",
+					count: 16
+				},
+				{
+					id: 34,
+					type: "item",
+					item: "kubejs:bananium_ore",
+					count: 16
+				},
+				{
+					id: 35,
+					type: "item",
+					item: "kubejs:purpurite_ore",
+					count: 16
+				},
+				{
+					id: 36,
+					type: "item",
+					item: "kubejs:ravenite_ore",
+					count: 16
+				}
+			]
+		},
+		{
+			x: 7.5d,
+			y: 1.5d,
+			dependencies: [I;18],
+			id: 25,
+			tasks: [{
+				id: 26,
+				type: "item",
+				item: "minecraft:cobblestone",
+				count: 32
+			}]
+		},
+		{
+			title: "Furnace",
+			icon: "minecraft:furnace",
+			x: 7.5d,
+			y: 3.0d,
+			description: [
+				"The furnace is the most basic machine.",
+				"Note that there is no coal in this world, you will have to use wood to make some charcoal."
+			],
+			dependencies: [I;25],
+			id: 27,
+			tasks: [
+				{
+					id: 28,
+					type: "item",
+					item: "minecraft:furnace"
+				},
+				{
+					id: 29,
+					type: "item",
+					item: "minecraft:charcoal",
+					count: 8
+				}
+			]
+		},
+		{
+			title: "Basic crusher",
+			icon: "silents_mechanisms:basic_crusher",
+			x: 9.0d,
+			y: 3.0d,
+			description: [
+				"All 6 ores needs to be crushed at first.",
+				"The basic crusher is the perfect machine for the beginning, later you will be able to craft faster crushers."
+			],
+			hide_dependency_lines: 0,
+			dependencies: [I;
+				27,
+				23
+			],
+			id: 30,
+			tasks: [{
+				id: 31,
+				type: "item",
+				item: "silents_mechanisms:basic_crusher"
+			}]
+		},
+		{
+			title: "The first metal",
+			x: 7.5d,
+			y: 4.5d,
+			description: ["Iron is the most used metal in all recipes, but the ingot is pretty useless in this pack, you should look for the plates."],
+			dependencies: [I;30],
+			id: 37,
+			tasks: [{
+				id: 38,
+				type: "item",
+				item: "minecraft:iron_ingot",
+				count: 16
+			}]
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"type": "silents_mechanisms:crushing",
+	"process_time": 400,
+	"ingredient": {"item": "kubejs:purpurite_ore"},
+	"results": [
+		{
+			"item": "kubejs:purpurite_chunks",
+			"count": 1
+		},
+		{
+			"item": "minecraft:cobblestone",
+			"count": 1
+		}
+	]
+}

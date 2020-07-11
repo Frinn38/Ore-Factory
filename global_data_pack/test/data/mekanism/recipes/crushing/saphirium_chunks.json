@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "kubejs:saphirium_ore"
+    }
+  },
+  "output": {
+    "item": "kubejs:saphirium_chunks"
+  }
+}

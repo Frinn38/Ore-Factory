@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "kubejs:olivium_ore"
+    }
+  },
+  "output": {
+    "item": "kubejs:olivium_chunks"
+  }
+}

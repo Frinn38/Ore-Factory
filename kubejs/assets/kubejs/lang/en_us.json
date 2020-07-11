@@ -1,0 +1,36 @@
+{
+	"block.kubejs.saphirium_ore": "Saphirium Ore",
+	"block.kubejs.rubium_ore": "Rubium Ore",
+	"block.kubejs.olivium_ore": "Olivium Ore",
+	"block.kubejs.bananium_ore": "Bananium Ore",
+	"block.kubejs.purpurite_ore": "Purpurite Ore",
+	"block.kubejs.ravenite_ore": "Ravenite Ore",
+
+	"item.kubejs.saphirium_chunks": "Saphirium Chunks",
+	"item.kubejs.rubium_chunks": "Rubium Chunks",
+	"item.kubejs.olivium_chunks": "Olivium Chunks",
+	"item.kubejs.bananium_chunks": "Bananium Chunks",
+	"item.kubejs.purpurite_chunks": "Purpurite Chunks",
+	"item.kubejs.ravenite_chunks": "Ravenite Chunks",
+
+	"item.kubejs.saphirium_shard": "Saphirium Shard",
+	"item.kubejs.rubium_shard": "Rubium Shard",
+	"item.kubejs.olivium_shard": "Olivium Shard",
+	"item.kubejs.bananium_shard": "Bananium Shard",
+	"item.kubejs.purpurite_shard": "Purpurite Shard",
+	"item.kubejs.ravenite_shard": "Ravenite Shard",
+
+	"item.kubejs.saphirium_clump": "Saphirium Clump",
+	"item.kubejs.rubium_clump": "Rubium Clump",
+	"item.kubejs.olivium_clump": "Olivium Clump",
+	"item.kubejs.bananium_clump": "Bananium Clump",
+	"item.kubejs.purpurite_clump": "Purpurite Clump",
+	"item.kubejs.ravenite_clump": "Ravenite Clump",
+
+	"item.kubejs.saphirium_crystal": "Saphirium Crystal",
+	"item.kubejs.rubium_crystal": "Rubium Crystal",
+	"item.kubejs.olivium_crystal": "Olivium Crystal",
+	"item.kubejs.bananium_crystal": "Bananium Crystal",
+	"item.kubejs.purpurite_crystal": "Purpurite Crystal",
+	"item.kubejs.ravenite_crystal": "Ravenite Crystal"
+}

@@ -1,4 +1,5 @@
 val plateIron = <item:immersiveengineering:plate_iron>;
+val plateGold = <item:immersiveengineering:plate_gold>;
 val air = <item:minecraft:air>;
 val board = <item:silentgear:template_board>;
 val blazeGold = <item:silentgear:blaze_gold_ingot>;
@@ -31,7 +32,17 @@ craftingTable.addShaped("material_grader", <item:silentgear:material_grader>, [
 craftingTable.removeByName("silentgear:iron_tipped_upgrade");
 craftingTable.addShapeless("iron_tipped_upgrade", <item:silentgear:iron_tipped_upgrade>, [<item:silentgear:upgrade_base>, plateIron]);
 
+//Gold tipped upgrade
+craftingTable.removeByName("silentgear:gold_tipped_upgrade");
+craftingTable.addShapeless("gold_tipped_upgrade", <item:silentgear:gold_tipped_upgrade>, [<item:silentgear:upgrade_base>, plateGold]);
+
 //Iron rod
 craftingTable.removeByName("silentgear:iron_rod");
 craftingTable.removeByName("silentgear:iron_rod2");
 craftingTable.addShapeless("iron_rod", <item:silentgear:iron_rod>, [<tag:silentgear:blueprints/rod>, plateIron, plateIron, plateIron]);
+
+//Golden banana
+craftingTable.removeByName("silentgear:golden_nether_banana");
+
+//Blaze gold
+craftingTable.removeByName("silentgear:blaze_gold_ingot");

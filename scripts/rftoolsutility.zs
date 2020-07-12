@@ -1,5 +1,6 @@
 val air = <item:minecraft:air>;
 val plateIron = <item:immersiveengineering:plate_iron>;
+val plateGold = <item:immersiveengineering:plate_gold>;
 val redstone = <item:minecraft:redstone>;
 val pearl = <item:minecraft:ender_pearl>;
 val frame = <item:rftoolsbase:machine_frame>;
@@ -37,12 +38,28 @@ craftingTable.addShaped("energy_module", <item:rftoolsutility:energy_module>, [
 	[air, <tag:forge:dyes/black>, air]
 ]);
 
+//Energy plus module
+craftingTable.removeByName("rftoolsutility:energyplus_module");
+craftingTable.addShaped("energyplus_module", <item:rftoolsutility:energyplus_module>, [
+	[air, pearl, air],
+	[plateGold, <item:rftoolsutility:energy_module>, plateGold],
+	[air, pearl, air]
+]);
+
 //Inventory module
 craftingTable.removeByName("rftoolsutility:inventory_module");
 craftingTable.addShaped("inventory_module", <item:rftoolsutility:inventory_module>, [
 	[air, <tag:forge:chests>, air],
 	[redstone, plateIron, redstone],
 	[air, <tag:forge:dyes/black>, air]
+]);
+
+//Inventory plus module
+craftingTable.removeByName("rftoolsutility:inventoryplus_module");
+craftingTable.addShaped("inventoryplus_module", <item:rftoolsutility:inventoryplus_module>, [
+	[air, pearl, air],
+	[plateGold, <item:rftoolsutility:inventory_module>, plateGold],
+	[air, pearl, air]
 ]);
 
 //Clock module
@@ -59,6 +76,14 @@ craftingTable.addShaped("fluid_module", <item:rftoolsutility:fluid_module>, [
 	[air, <item:minecraft:bucket>, air],
 	[redstone, plateIron, redstone],
 	[air, <tag:forge:dyes/black>, air]
+]);
+
+//Fluid plus module
+craftingTable.removeByName("rftoolsutility:fluidplus_module");
+craftingTable.addShaped("fluidplus_module", <item:rftoolsutility:fluidplus_module>, [
+	[air, pearl, air],
+	[plateGold, <item:rftoolsutility:fluid_module>, plateGold],
+	[air, pearl, air]
 ]);
 
 //Machine info module

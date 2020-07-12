@@ -1,4 +1,5 @@
 val plateIron = <item:immersiveengineering:plate_iron>;
+val plateGold = <item:immersiveengineering:plate_gold>;
 val air = <item:minecraft:air>;
 val plank = <tag:minecraft:planks>;
 val stick = <tag:forge:rods/wooden>;
@@ -35,6 +36,14 @@ craftingTable.addShaped("activator_rail", <item:minecraft:activator_rail> * 6, [
 	[plateIron, stick, plateIron],
 	[plateIron, <item:minecraft:redstone_torch>, plateIron],
 	[plateIron, stick, plateIron]
+]);
+
+//Powered rail
+craftingTable.removeByName("minecraft:powered_rail");
+craftingTable.addShaped("powered_rail", <item:minecraft:powered_rail> * 6, [
+	[plateGold, air, plateGold],
+	[plateGold, stick, plateGold],
+	[plateGold, redstone, plateGold]
 ]);
 
 //Minecart
@@ -119,6 +128,12 @@ craftingTable.addShaped("heavy_weighted_pressure_plate", <item:minecraft:heavy_w
 	[plateIron, plateIron]
 ]);
 
+//Gold pressure plate
+craftingTable.removeByName("minecraft:light_weighted_pressure_plate");
+craftingTable.addShaped("light_weighted_pressure_plate", <item:minecraft:light_weighted_pressure_plate>, [
+	[plateGold, plateGold]
+]);
+
 //Tripwire hook
 craftingTable.removeByName("minecraft:tripwire_hook");
 craftingTable.addShaped("tripwire_hook", <item:minecraft:tripwire_hook>, [
@@ -151,6 +166,14 @@ craftingTable.addShaped("crossbow", <item:minecraft:crossbow>, [
 	[air, stick, air]
 ]);
 
+//Clock
+craftingTable.removeByName("minecraft:clock");
+craftingTable.addShaped("clock", <item:minecraft:clock>, [
+	[air, plateGold, air],
+	[plateGold, redstone, plateGold],
+	[air, plateGold, air]
+]);
+
 //Flint & steel
 craftingTable.removeByName("minecraft:flint_and_steel");
 craftingTable.addShapeless("flint_and_steel", <item:minecraft:flint_and_steel>, [<item:silents_mechanisms:steel_ingot>, <item:minecraft:flint>]);
@@ -158,7 +181,18 @@ craftingTable.addShapeless("flint_and_steel", <item:minecraft:flint_and_steel>, 
 //Iron block
 craftingTable.removeByName("minecraft:iron_block");
 
+//Gold block
+craftingTable.removeByName("minecraft:gold_block");
+
+//Golden apple
+craftingTable.removeByName("minecraft:golden_apple");
+
 //Remove useless tools
+craftingTable.removeByName("minecraft:golden_hoe");
+craftingTable.removeByName("minecraft:golden_shovel");
+craftingTable.removeByName("minecraft:golden_axe");
+craftingTable.removeByName("minecraft:golden_pickaxe");
+craftingTable.removeByName("minecraft:golden_sword");
 craftingTable.removeByName("minecraft:iron_hoe");
 craftingTable.removeByName("minecraft:iron_shovel");
 craftingTable.removeByName("minecraft:iron_axe");
@@ -168,6 +202,10 @@ craftingTable.removeByName("minecraft:shears");
 craftingTable.removeByName("minecraft:shield");
 
 //Remove useless armors
+craftingTable.removeByName("minecraft:golden_helmet");
+craftingTable.removeByName("minecraft:golden_chestplate");
+craftingTable.removeByName("minecraft:golden_leggings");
+craftingTable.removeByName("minecraft:golden_boots");
 craftingTable.removeByName("minecraft:iron_helmet");
 craftingTable.removeByName("minecraft:iron_chestplate");
 craftingTable.removeByName("minecraft:iron_leggings");

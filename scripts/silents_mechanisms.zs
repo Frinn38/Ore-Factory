@@ -2,6 +2,7 @@ val air = <item:minecraft:air>;
 val plateIron = <item:immersiveengineering:plate_iron>;
 val plateCopper = <item:immersiveengineering:plate_copper>;
 val plateLead = <item:immersiveengineering:plate_lead>;
+val plateGold = <item:immersiveengineering:plate_gold>;
 val redstone = <item:minecraft:redstone>;
 val smooth = <item:minecraft:smooth_stone>;
 
@@ -51,6 +52,13 @@ craftingTable.addShaped("silents_battery", <item:silents_mechanisms:battery>, [
 	[air, <item:silents_mechanisms:redstone_alloy_ingot>, air],
 	[plateIron, redstone, plateIron],
 	[plateLead, redstone, plateLead]
+]);
+
+//Circuit board
+craftingTable.removeByName("silents_mechanisms:circuit_board");
+craftingTable.addShaped("circuit_board", <item:silents_mechanisms:circuit_board>, [
+	[<item:silents_mechanisms:redstone_alloy_ingot>, plateGold, <item:silents_mechanisms:redstone_alloy_ingot>],
+	[<item:minecraft:iron_nugget>, <item:minecraft:iron_nugget>, <item:minecraft:iron_nugget>]
 ]);
 
 //Electric furnace

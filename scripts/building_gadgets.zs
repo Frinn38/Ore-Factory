@@ -45,7 +45,7 @@ craftingTable.addShaped("construction_paste_container", <item:buildinggadgets:co
 ]);
 
 //Tier 2 paste container
-craftingTable.removeByName("buildinggadgets:contruction_paste_container_t2");
+craftingTable.removeByName("buildinggadgets:construction_paste_container_t2");
 craftingTable.addShaped("construction_paste_container_t2", <item:buildinggadgets:construction_paste_container_t2>, [
 	[<item:buildinggadgets:construction_paste_container_t1>, plateGold, <item:buildinggadgets:construction_paste_container_t1>],
 	[plateGold, plateGold, plateGold],

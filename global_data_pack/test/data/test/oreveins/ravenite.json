@@ -1,11 +1,22 @@
 {
 	"type":"sphere",
-	"stone":"minecraft:stone",
+	"stone":"minecraft:netherrack",
 	"ore":"kubejs:ravenite_ore",
 	"count":1,
 	"rarity":50,
 	"density":1000,
+	"min_y": 10,
+	"max_y": 128,
 	"indicator": {
-		"blocks":"kubejs:ravenite_ore"
-	}
+		"blocks":"kubejs:ravenite_sample",
+		"blocks_under": [
+			{
+				"block": "minecraft:netherrack"
+			},
+			{
+				"block": "minecraft:soul_sand"
+			}
+		]
+	},
+	"dimensions": "minecraft:the_nether"
 }

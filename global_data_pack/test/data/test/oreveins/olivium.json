@@ -6,6 +6,24 @@
 	"rarity":50,
 	"density":1000,
 	"indicator": {
-		"blocks":"kubejs:olivium_ore"
-	}
+		"blocks":"kubejs:olivium_sample",
+		"blocks_under": [
+			{
+				"block": "minecraft:dirt"
+			},
+			{
+				"block": "minecraft:grass_block"
+			},
+			{
+				"block": "minecraft:stone"
+			},
+			{
+				"block": "minecraft:gravel"
+			},
+			{
+				"block": "minecraft:sand"
+			}
+		]
+	},
+	"dimensions": "minecraft:overworld"
 }

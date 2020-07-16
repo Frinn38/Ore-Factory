@@ -1,10 +1,10 @@
 events.listen('block.registry', function (event) {
-  event.create('saphirium_ore').material(block.material.rock).hardness(3).resistance(3).harvestTool(TOOL_TYPE_PICKAXE, 2)
-  event.create('rubium_ore').material(block.material.rock).hardness(3).resistance(3).harvestTool(TOOL_TYPE_PICKAXE, 2)
-  event.create('olivium_ore').material(block.material.rock).hardness(3).resistance(3).harvestTool(TOOL_TYPE_PICKAXE, 2)
-  event.create('bananium_ore').material(block.material.rock).hardness(3).resistance(3).harvestTool(TOOL_TYPE_PICKAXE, 2)
-  event.create('purpurite_ore').material(block.material.rock).hardness(3).resistance(3).harvestTool(TOOL_TYPE_PICKAXE, 2)
-  event.create('ravenite_ore').material(block.material.rock).hardness(3).resistance(3).harvestTool(TOOL_TYPE_PICKAXE, 2)
+  event.create('saphirium_ore').material(block.material.rock).hardness(3).resistance(3).harvestTool(TOOL_TYPE_PICKAXE, 1)
+  event.create('rubium_ore').material(block.material.rock).hardness(3).resistance(3).harvestTool(TOOL_TYPE_PICKAXE, 1)
+  event.create('olivium_ore').material(block.material.rock).hardness(3).resistance(3).harvestTool(TOOL_TYPE_PICKAXE, 1)
+  event.create('bananium_ore').material(block.material.rock).hardness(3).resistance(3).harvestTool(TOOL_TYPE_PICKAXE, 1)
+  event.create('purpurite_ore').material(block.material.rock).hardness(3).resistance(3).harvestTool(TOOL_TYPE_PICKAXE, 1)
+  event.create('ravenite_ore').material(block.material.rock).hardness(3).resistance(3).harvestTool(TOOL_TYPE_PICKAXE, 1)
 })
 
 events.listen('item.registry', function (event) {

@@ -1,11 +1,22 @@
 {
 	"type":"sphere",
-	"stone":"minecraft:stone",
+	"stone":"minecraft:end_stone",
 	"ore":"kubejs:purpurite_ore",
 	"count":1,
 	"rarity":50,
 	"density":1000,
+	"min_y": 10,
+	"max_y": 128,
 	"indicator": {
-		"blocks":"kubejs:purpurite_ore"
+		"blocks":"kubejs:purpurite_sample",
+		"blocks_under": [
+			{
+				"block": "minecraft:end_stone"
+			}
+		]
+	},
+	"dimensions": "minecraft:the_end",
+	"distance": {
+		"minimum_distance": 500
 	}
 }

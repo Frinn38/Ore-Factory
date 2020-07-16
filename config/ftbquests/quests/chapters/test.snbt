@@ -778,7 +778,6 @@
 				"All 6 ores are pretty common and the deposits are huges, in addition there is some hints at the surface above a deposit.",
 				"Grinding ores is not the objective of this pack, remember you have OreExcavation to quickly mine a full deposit."
 			],
-			hide_dependency_lines: 0,
 			dependencies: [I;21],
 			id: 23,
 			tasks: [
@@ -866,7 +865,6 @@
 				"All 6 ores needs to be crushed at first.",
 				"The basic crusher is the perfect machine for the beginning, later you will be able to craft faster crushers."
 			],
-			hide_dependency_lines: 0,
 			dependencies: [I;
 				27,
 				23
@@ -890,6 +888,39 @@
 				type: "item",
 				item: "minecraft:iron_ingot",
 				count: 16
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 4.5d,
+			dependencies: [I;30],
+			id: 58,
+			tasks: [{
+				id: 59,
+				type: "item",
+				item: "silents_mechanisms:lead_ingot"
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 4.5d,
+			dependencies: [I;30],
+			id: 60,
+			tasks: [{
+				id: 61,
+				type: "item",
+				item: "silents_mechanisms:tin_ingot"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 4.5d,
+			dependencies: [I;30],
+			id: 62,
+			tasks: [{
+				id: 63,
+				type: "item",
+				item: "silents_mechanisms:copper_ingot"
 			}]
 		}
 	]

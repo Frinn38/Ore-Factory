@@ -1,7 +1,7 @@
 {
 	id: 3,
 	filename: "lol",
-	order_index: 2,
+	order_index: 3,
 	title: "lol",
 	quests: []
 }

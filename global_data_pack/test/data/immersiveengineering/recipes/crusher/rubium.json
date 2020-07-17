@@ -1,0 +1,34 @@
+{
+    "type": "immersiveengineering:crusher",
+    "secondaries": [
+      {
+        "chance": 1,
+        "output": {
+          "item": "silents_mechanisms:copper_ingot",
+          "count": 2
+        }
+      },
+      {
+        "chance": 1,
+        "output": {
+          "item": "silents_mechanisms:silver_ingot",
+          "count": 1
+        }
+      },
+      {
+        "chance": 1,
+        "output": {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        }
+      }
+    ],
+    "result": {
+      "item": "immersiveengineering:slag",
+      "count": 1
+    },
+    "input": {
+      "item": "kubejs:rubium_clump"
+    },
+    "energy": 5000
+  }

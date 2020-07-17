@@ -2,9 +2,35 @@ val air = <item:minecraft:air>;
 val plateIron = <item:immersiveengineering:plate_iron>;
 val plateCopper = <item:immersiveengineering:plate_copper>;
 val plateGold = <item:immersiveengineering:plate_gold>;
+val plateSilver = <item:immersiveengineering:plate_silver>;
+val plateNickel = <item:immersiveengineering:plate_nickel>;
 val redstone = <item:minecraft:redstone>;
 val bars = <item:minecraft:iron_bars>;
 val compressed = <tag:forge:ingots/compressed_iron>;
+
+//refinery_output
+craftingTable.removeByName("pneumaticcraft:refinery_output");
+craftingTable.addShaped("refinery_output", <item:pneumaticcraft:refinery_output>, [
+	[<item:pneumaticcraft:reinforced_stone>, <item:pneumaticcraft:reinforced_stone>, <item:pneumaticcraft:reinforced_stone>],
+	[plateGold, <item:pneumaticcraft:small_tank>, plateGold],
+	[<item:pneumaticcraft:reinforced_stone>, <item:pneumaticcraft:reinforced_stone>, <item:pneumaticcraft:reinforced_stone>]
+]);
+
+//pressure_tube
+craftingTable.removeByName("pneumaticcraft:pressure_tube");
+craftingTable.addShaped("pressure_tube", <item:pneumaticcraft:pressure_tube> * 4, [
+	[air, plateSilver, air],
+	[<tag:forge:ingots/compressed_iron>, <tag:forge:glass>, <tag:forge:ingots/compressed_iron>],
+	[air, plateSilver, air]
+]);
+
+//small_tank
+craftingTable.removeByName("pneumaticcraft:small_tank");
+craftingTable.addShaped("small_tank", <item:pneumaticcraft:small_tank>, [
+	[<item:minecraft:iron_bars>, plateNickel, <item:minecraft:iron_bars>],
+	[<tag:forge:ingots/compressed_iron>, <tag:forge:glass>, <tag:forge:ingots/compressed_iron>],
+	[<item:minecraft:iron_bars>, plateNickel, <item:minecraft:iron_bars>]
+]);
 
 //Compressed iron gear
 craftingTable.removeByName("pneumaticcraft:compressed_iron_gear");
@@ -63,12 +89,4 @@ craftingTable.addShaped("pressure_gauge", <item:pneumaticcraft:pressure_gauge>, 
 	[air, plateGold, air],
 	[plateGold, compressed, plateGold],
 	[air, plateGold, air]
-]);
-
-//Thermopneumatic processing plant
-craftingTable.removeByName("pneumaticcraft:thermopneumatic_processing_plant");
-craftingTable.addShaped("thermopneumatic_processing_plant", <item:pneumaticcraft:thermopneumatic_processing_plant>, [
-	[<item:pneumaticcraft:reinforced_stone_slab>, <item:pneumaticcraft:reinforced_stone_slab>, <item:pneumaticcraft:reinforced_stone_slab>],
-	[<item:pneumaticcraft:small_tank>, <item:silents_mechanisms:alloy_machine_frame>, <item:pneumaticcraft:small_tank>],
-	[<item:pneumaticcraft:reinforced_stone_slab>, <item:pneumaticcraft:reinforced_stone_slab>, <item:pneumaticcraft:reinforced_stone_slab>]
 ]);

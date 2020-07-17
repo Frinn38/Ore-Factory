@@ -1,0 +1,21 @@
+{
+    "type": "pneumaticcraft:refinery",
+    "input": {
+      "type": "pneumaticcraft:fluid",
+      "fluid": "minecraft:water",
+      "amount": 1000
+    },
+    "temperature": {
+      "min_temp": 373
+    },
+    "results": [
+      {
+        "fluid": "kubejs:purified_water",
+        "amount": 200
+      },
+      {
+        "fluid": "kubejs:sludge",
+        "amount": 800
+      }
+    ]
+  }

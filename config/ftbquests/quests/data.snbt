@@ -1,6 +1,6 @@
 {
 	version: 7,
-	last_id: 71,
+	last_id: 73,
 	title: "Welcome",
 	icon: "minecraft:grass_block",
 	default_reward_team: 0,

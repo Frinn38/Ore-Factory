@@ -3,8 +3,10 @@ val plateIron = <item:immersiveengineering:plate_iron>;
 val plateCopper = <item:immersiveengineering:plate_copper>;
 val plateLead = <item:immersiveengineering:plate_lead>;
 val plateGold = <item:immersiveengineering:plate_gold>;
+val plateSteel = <item:immersiveengineering:plate_steel>;
 val redstone = <item:minecraft:redstone>;
 val smooth = <item:minecraft:smooth_stone>;
+val alloyRed = <item:silents_mechanisms:redstone_alloy_ingot>;
 
 //stone machine frame
 craftingTable.removeByName("silents_mechanisms:stone_machine_frame");
@@ -12,6 +14,14 @@ craftingTable.addShaped("stone_machine_frame", <item:silents_mechanisms:stone_ma
 	[<item:minecraft:smooth_stone>, <tag:forge:glass>, <item:minecraft:smooth_stone>],
 	[<tag:forge:glass>, <tag:forge:chests>, <tag:forge:glass>],
 	[<item:minecraft:smooth_stone>, <tag:forge:glass>, <item:minecraft:smooth_stone>]
+]);
+
+//Alloy machine frame
+craftingTable.removeByName("silents_mechanisms:alloy_machine_frame");
+craftingTable.addShaped("alloy_machine_frame", <item:silents_mechanisms:alloy_machine_frame>, [
+	[plateSteel, alloyRed, plateSteel],
+	[alloyRed, <item:powah:dielectric_casing>, alloyRed],
+	[plateSteel, alloyRed, plateSteel]
 ]);
 
 //basic crusher
@@ -68,3 +78,4 @@ craftingTable.addShaped("electric_furnace", <item:silents_mechanisms:electric_fu
 	[<item:silents_mechanisms:redstone_alloy_ingot>, <item:silents_mechanisms:alloy_machine_frame>, <item:silents_mechanisms:redstone_alloy_ingot>],
 	[smooth, <item:silents_mechanisms:heating_element>, smooth]
 ]);
+

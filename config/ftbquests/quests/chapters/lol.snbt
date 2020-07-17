@@ -3,5 +3,19 @@
 	filename: "lol",
 	order_index: 3,
 	title: "lol",
-	quests: []
+	quests: [{
+		x: 0.0d,
+		y: 0.0d,
+		description: ["lolilol"],
+		id: 72,
+		tasks: [{
+			id: 73,
+			type: "advancement",
+			title: "Test",
+			icon: "minecraft:stone",
+			tags: ["lol"],
+			advancement: "immersiveengineering:main/mb_blastfurnace",
+			criterion: ""
+		}]
+	}]
 }

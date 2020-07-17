@@ -1,0 +1,19 @@
+{
+  "type": "silents_mechanisms:alloy_smelting",
+  "process_time": 200,
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "value": {
+        "tag": "forge:dusts/charcoal"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "item": "silents_mechanisms:steel_ingot",
+    "count": 1
+  }
+}

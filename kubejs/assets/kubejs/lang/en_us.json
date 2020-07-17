@@ -6,12 +6,12 @@
 	"block.kubejs.purpurite_ore": "Purpurite Ore",
 	"block.kubejs.ravenite_ore": "Ravenite Ore",
 
-	"block.kubejs.saphirium_sample": "Saphirium Sample",
-	"block.kubejs.rubium_sample": "Rubium Sample",
-	"block.kubejs.olivium_sample": "Olivium Sample",
-	"block.kubejs.bananium_sample": "Bananium Sample",
-	"block.kubejs.purpurite_sample": "Purpurite Sample",
-	"block.kubejs.ravenite_sample": "Ravenite Sample",
+	"block.kubejs.saphirium_sample.name": "Saphirium Sample",
+	"block.kubejs.rubium_sample.name": "Rubium Sample",
+	"block.kubejs.olivium_sample.name": "Olivium Sample",
+	"block.kubejs.bananium_sample.name": "Bananium Sample",
+	"block.kubejs.purpurite_sample.name": "Purpurite Sample",
+	"block.kubejs.ravenite_sample.name": "Ravenite Sample",
 
 	"item.kubejs.saphirium_chunks": "Saphirium Chunks",
 	"item.kubejs.rubium_chunks": "Rubium Chunks",
@@ -39,5 +39,9 @@
 	"item.kubejs.olivium_crystal": "Olivium Crystal",
 	"item.kubejs.bananium_crystal": "Bananium Crystal",
 	"item.kubejs.purpurite_crystal": "Purpurite Crystal",
-	"item.kubejs.ravenite_crystal": "Ravenite Crystal"
+	"item.kubejs.ravenite_crystal": "Ravenite Crystal",
+
+	"item.kubejs.purified_water_bucket": "Purified Water Bucket",
+
+	"fluid.kubejs.purified_water": "Purified Water"
 }

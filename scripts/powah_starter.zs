@@ -15,6 +15,13 @@ val charcoal = <item:mekanism:block_charcoal>;
 val casing = <item:silents_mechanisms:stone_machine_frame>;
 val uraninite = <item:powah:uraninite>;
 
+//Basic capacitor tiny
+craftingTable.addShaped("basic_capacitor_tiny", <item:powah:capacitor_basic_tiny>, [
+	[air, air, paste],
+	[air, smooth, air],
+	[paste, air, air]
+]);
+
 //Starter energy cell
 craftingTable.removeByName("powah:crafting/energy_cell_starter");
 craftingTable.addShaped("energy_cell_starter", <item:powah:energy_cell_starter>, [

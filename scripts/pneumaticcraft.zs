@@ -64,3 +64,11 @@ craftingTable.addShaped("pressure_gauge", <item:pneumaticcraft:pressure_gauge>, 
 	[plateGold, compressed, plateGold],
 	[air, plateGold, air]
 ]);
+
+//Thermopneumatic processing plant
+craftingTable.removeByName("pneumaticcraft:thermopneumatic_processing_plant");
+craftingTable.addShaped("thermopneumatic_processing_plant", <item:pneumaticcraft:thermopneumatic_processing_plant>, [
+	[<item:pneumaticcraft:reinforced_stone_slab>, <item:pneumaticcraft:reinforced_stone_slab>, <item:pneumaticcraft:reinforced_stone_slab>],
+	[<item:pneumaticcraft:small_tank>, <item:silents_mechanisms:alloy_machine_frame>, <item:pneumaticcraft:small_tank>],
+	[<item:pneumaticcraft:reinforced_stone_slab>, <item:pneumaticcraft:reinforced_stone_slab>, <item:pneumaticcraft:reinforced_stone_slab>]
+]);

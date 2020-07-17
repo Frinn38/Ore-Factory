@@ -43,5 +43,8 @@
 
 	"item.kubejs.purified_water_bucket": "Purified Water Bucket",
 
-	"fluid.kubejs.purified_water": "Purified Water"
+	"fluid.kubejs.purified_water": "Purified Water",
+	"item.kubejs.sludge_bucket": "Sludge Bucket",
+
+	"fluid.kubejs.sludge_water": "Sludge"
 }

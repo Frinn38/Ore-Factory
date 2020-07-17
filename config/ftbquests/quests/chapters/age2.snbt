@@ -10,6 +10,7 @@
 			x: 0.0d,
 			y: 0.0d,
 			description: ["To start age 2 you have to go to the nether, and for that you need obsidians. To mine obsidian you can craft tool (with silent's gems) in compressed iron"],
+			dependencies: [I;37],
 			id: 40,
 			tasks: [{
 				id: 41,
@@ -101,6 +102,7 @@
 			x: 1.5d,
 			y: -1.5d,
 			description: ["Now you can craft plates and some other multiblocks from immersive engineering !"],
+			dependencies: [I;37],
 			id: 66,
 			tasks: [{
 				id: 67,

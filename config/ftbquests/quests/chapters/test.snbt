@@ -898,7 +898,8 @@
 			tasks: [{
 				id: 59,
 				type: "item",
-				item: "silents_mechanisms:lead_ingot"
+				item: "silents_mechanisms:lead_ingot",
+				count: 16
 			}]
 		},
 		{
@@ -909,7 +910,8 @@
 			tasks: [{
 				id: 61,
 				type: "item",
-				item: "silents_mechanisms:tin_ingot"
+				item: "silents_mechanisms:tin_ingot",
+				count: 16
 			}]
 		},
 		{
@@ -920,7 +922,8 @@
 			tasks: [{
 				id: 63,
 				type: "item",
-				item: "silents_mechanisms:copper_ingot"
+				item: "silents_mechanisms:copper_ingot",
+				count: 16
 			}]
 		}
 	]

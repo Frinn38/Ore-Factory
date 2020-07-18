@@ -72,7 +72,8 @@
 			tasks: [{
 				id: 53,
 				type: "item",
-				item: "minecraft:redstone"
+				item: "minecraft:redstone",
+				count: 16
 			}]
 		},
 		{
@@ -83,7 +84,8 @@
 			tasks: [{
 				id: 55,
 				type: "item",
-				item: "silents_mechanisms:silver_ingot"
+				item: "silents_mechanisms:silver_ingot",
+				count: 16
 			}]
 		},
 		{
@@ -94,7 +96,8 @@
 			tasks: [{
 				id: 57,
 				type: "item",
-				item: "silents_mechanisms:aluminum_ingot"
+				item: "silents_mechanisms:aluminum_ingot",
+				count: 16
 			}]
 		},
 		{
@@ -137,7 +140,8 @@
 			tasks: [{
 				id: 71,
 				type: "item",
-				item: "silents_mechanisms:nickel_ingot"
+				item: "silents_mechanisms:nickel_ingot",
+				count: 16
 			}]
 		}
 	]

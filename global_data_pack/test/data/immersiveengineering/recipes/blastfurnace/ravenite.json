@@ -10,7 +10,7 @@
     "item": "kubejs:ravenite_chunks"
   },
   "slag": {
-    "item": "minecraft:tin"
+    "item": "silents_mechanisms:tin_ingot"
   },
   "time": 100
 }

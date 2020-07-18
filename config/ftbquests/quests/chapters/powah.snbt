@@ -45,7 +45,6 @@
 		{
 			x: 2.5d,
 			y: -2.0d,
-			dependencies: [I;115],
 			id: 113,
 			tasks: [{
 				id: 114,
@@ -59,10 +58,6 @@
 			x: 1.0d,
 			y: -2.0d,
 			description: ["The Tiny Basic Capacitor is the main component for all Powah Starters generators."],
-			dependencies: [I;
-				109,
-				128
-			],
 			id: 115,
 			tasks: [
 				{

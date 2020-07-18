@@ -48,7 +48,7 @@ craftingTable.addShaped("energy_cell_basic", <item:powah:energy_cell_basic>, [
 //Basic ender cell
 craftingTable.removeByName("powah:crafting/ender_cell_basic");
 craftingTable.addShaped("ender_cell_basic", <item:powah:ender_cell_basic>, [
-	[obsi, plateSilver, obsi],
+	[obsi, plateCopper, obsi],
 	[plateIron, <item:powah:ender_core>, plateIron],
 	[obsi, plateCopper, obsi]
 ]);
@@ -56,7 +56,7 @@ craftingTable.addShaped("ender_cell_basic", <item:powah:ender_cell_basic>, [
 //Basic magmator
 craftingTable.removeByName("powah:crafting/magmator_basic");
 craftingTable.addShaped("magmator_basic", <item:powah:magmator_basic>, [
-	[plateIron, plateSilver, plateIron],
+	[plateIron, plateLead, plateIron],
 	[capacitorBasic, <item:powah:dielectric_casing>, capacitorBasic],
 	[plateIron, <item:powah:magmator_starter>, plateIron]
 ]);
@@ -64,7 +64,7 @@ craftingTable.addShaped("magmator_basic", <item:powah:magmator_basic>, [
 //Basic thermo generator
 craftingTable.removeByName("powah:crafting/thermo_generator_basic");
 craftingTable.addShaped("thermo_generator_basic", <item:powah:thermo_generator_basic>, [
-	[paste, plateSilver, paste],
+	[paste, plateLead, paste],
 	[capacitorBasic, <item:powah:dielectric_casing>, capacitorBasic],
 	[plate, <item:powah:thermo_generator_starter>, plate]
 ]);
@@ -72,7 +72,7 @@ craftingTable.addShaped("thermo_generator_basic", <item:powah:thermo_generator_b
 //Basic furnator
 craftingTable.removeByName("powah:crafting/furnator_basic");
 craftingTable.addShaped("furnator_basic", <item:powah:furnator_basic>, [
-	[plateIron, plateSilver, plateIron],
+	[plateIron, plateLead, plateIron],
 	[capacitorBasic, <item:powah:dielectric_casing>, capacitorBasic],
 	[plateIron, <item:powah:furnator_starter>, plateIron]
 ]);
@@ -80,7 +80,7 @@ craftingTable.addShaped("furnator_basic", <item:powah:furnator_basic>, [
 //Basic battery
 craftingTable.removeByName("powah:crafting/battery_basic");
 craftingTable.addShaped("battery_basic", <item:powah:battery_basic>, [
-	[paste, plateSilver, paste],
+	[paste, plateLead, paste],
 	[<item:powah:capacitor_basic_large>, <item:minecraft:redstone_block>, <item:powah:capacitor_basic_large>],
 	[paste, <item:powah:battery_starter>, paste]
 ]);

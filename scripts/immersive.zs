@@ -5,12 +5,21 @@ val plateSteel = <item:immersiveengineering:plate_steel>;
 val plateConstantan = <item:immersiveengineering:plate_constantan>;
 val plateLead = <item:immersiveengineering:plate_lead>;
 val plateElectrum = <item:immersiveengineering:plate_electrum>;
+val plateNickel = <item:immersiveengineering:plate_nickel>;
 val redstone = <item:minecraft:redstone>;
 val glass = <tag:forge:glass>;
 val treated = <tag:forge:treated_wood>;
 val blue = <tag:forge:dyes/blue>;
 val paper = <item:minecraft:paper>;
 val leather = <item:minecraft:leather>;
+
+//alloybrick
+craftingTable.removeByName("immersiveengineering:crafting/alloybrick");
+craftingTable.addShaped("alloybrick", <item:immersiveengineering:alloybrick>*2, [
+	[<item:minecraft:bricks>, <item:minecraft:sandstone>, <item:minecraft:bricks>],
+	[<item:immersiveengineering:cokebrick>, <item:immersiveengineering:coke>, <item:immersiveengineering:cokebrick>],
+	[<item:minecraft:bricks>, <item:minecraft:sandstone>, <item:minecraft:bricks>]
+]);
 
 //Charging station
 craftingTable.removeByName("immersiveengineering:crafting/charging_station");
@@ -220,7 +229,7 @@ craftingTable.addShaped("floodlight", <item:immersiveengineering:floodlight>, [
 craftingTable.removeByName("immersiveengineering:crafting/coil_lv");
 craftingTable.addShaped("coil_lv", <item:immersiveengineering:coil_lv>, [
 	[<item:immersiveengineering:wirecoil_copper>, <item:immersiveengineering:wirecoil_copper>, <item:immersiveengineering:wirecoil_copper>],
-	[<item:immersiveengineering:wirecoil_copper>, plateIron, <item:immersiveengineering:wirecoil_copper>],
+	[<item:immersiveengineering:wirecoil_copper>, plateElectrum, <item:immersiveengineering:wirecoil_copper>],
 	[<item:immersiveengineering:wirecoil_copper>, <item:immersiveengineering:wirecoil_copper>, <item:immersiveengineering:wirecoil_copper>]
 ]);
 
@@ -259,7 +268,7 @@ craftingTable.addShaped("speedloader", <item:immersiveengineering:speedloader>, 
 //Lv capacitor
 craftingTable.removeByName("immersiveengineering:crafting/capacitor_lv");
 craftingTable.addShaped("capacitor_lv", <item:immersiveengineering:capacitor_lv>, [
-	[plateIron, plateIron, plateIron],
+	[plateIron, plateNickel, plateIron],
 	[plateCopper, plateLead, plateCopper],
 	[treated, redstone, treated]
 ]);
@@ -267,7 +276,7 @@ craftingTable.addShaped("capacitor_lv", <item:immersiveengineering:capacitor_lv>
 //Mv capacitor
 craftingTable.removeByName("immersiveengineering:crafting/capacitor_mv");
 craftingTable.addShaped("capacitor_mv", <item:immersiveengineering:capacitor_mv>, [
-	[plateIron, plateIron, plateIron],
+	[plateNickel, plateNickel, plateNickel],
 	[plateElectrum, plateLead, plateElectrum],
 	[treated, redstone, treated]
 ]);

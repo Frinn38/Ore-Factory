@@ -18,9 +18,9 @@ val diamond = <item:minecraft:diamond>;
 //Basic fluid tank
 craftingTable.removeByName("mekanism:fluid_tank/basic");
 craftingTable.addShaped("fluid_tank/basic", <item:mekanism:basic_fluid_tank>, [
-	[redstone, plateIron, redstone],
+	[redstone, plateCopper, redstone],
 	[plateIron, redstone, plateIron],
-	[redstone, plateIron, redstone]
+	[redstone, plateCopper, redstone]
 ]);
 
 //Advanced fluid tank

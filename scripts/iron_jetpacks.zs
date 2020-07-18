@@ -14,15 +14,15 @@ val stick = <tag:forge:rods/wooden>;
 //Basic coil
 craftingTable.removeByName("ironjetpacks:basic_coil");
 craftingTable.addShaped("basic_coil", <item:ironjetpacks:basic_coil>, [
-	[air, plateIron, redstone],
+	[plateSilver, plateIron, redstone],
 	[plateIron, stick, plateIron],
-	[redstone, plateIron, air]
+	[redstone, plateIron, plateSilver]
 ]);
 
 //Advanced coil
 craftingTable.removeByName("ironjetpacks:advanced_coil");
 craftingTable.addShaped("advanced_coil", <item:ironjetpacks:advanced_coil>, [
-	[air, plateGold, redstone],
+	[plateSteel, plateGold, redstone],
 	[plateGold, stick, plateGold],
-	[redstone, plateGold, air]
+	[redstone, plateGold, plateSteel]
 ]);

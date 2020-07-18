@@ -1,6 +1,7 @@
 val air = <item:minecraft:air>;
 val plateIron = <item:immersiveengineering:plate_iron>;
 val plateGold = <item:immersiveengineering:plate_gold>;
+val plateNickel = <item:immersiveengineering:plate_nickel>;
 val log = <tag:minecraft:logs>;
 val cobble = <tag:forge:cobblestone>;
 val diamond = <item:minecraft:diamond>;
@@ -24,17 +25,17 @@ craftingTable.addShaped("cobblegen_tier_2", <item:cobblefordays:tier_2>, [
 //cobble gen t3
 craftingTable.removeByName("cobblefordays:tier_3");
 craftingTable.addShaped("cobblegen_tier_3", <item:cobblefordays:tier_3>, [
-	[plateIron, plateIron, plateIron],
+	[plateGold, plateIron, plateGold],
 	[<item:minecraft:water_bucket>, <item:cobblefordays:tier_2>, <item:minecraft:lava_bucket>],
-	[plateIron, plateIron, plateIron]
+	[plateGold, plateIron, plateGold]
 ]);
 
 //cobble gen T4
 craftingTable.removeByName("cobblefordays:tier_4");
 craftingTable.addShaped("cobblegen_tier_4", <item:cobblefordays:tier_4>, [
-	[plateGold, plateGold, plateGold],
+	[plateGold, plateNickel, plateGold],
 	[<item:minecraft:water_bucket>, <item:cobblefordays:tier_3>, <item:minecraft:lava_bucket>],
-	[plateGold, plateGold, plateGold]
+	[plateGold, plateNickel, plateGold]
 ]);
 
 //cobble gen T5

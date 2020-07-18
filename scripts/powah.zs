@@ -1,5 +1,12 @@
 val plateIron = <item:immersiveengineering:plate_iron>;
+val plateCopper = <item:immersiveengineering:plate_copper>;
+val plateGold = <item:immersiveengineering:plate_gold>;
+val plateSilver = <item:immersiveengineering:plate_silver>;
+val plateElectrum = <item:immersiveengineering:plate_electrum>;
+val plateAluminum = <item:immersiveengineering:plate_aluminum>;
+val plateNickel = <item:immersiveengineering:plate_nickel>;
 val plateLead = <item:immersiveengineering:plate_lead>;
+val plateSteel = <item:immersiveengineering:plate_steel>;
 val air = <item:minecraft:air>;
 val redstone = <item:minecraft:redstone>;
 val paste = <item:powah:dielectric_paste>;
@@ -50,14 +57,14 @@ craftingTable.addShaped("dielectric_rod_horizontal", <item:powah:dielectric_rod_
 //Dielectric casing
 craftingTable.removeByName("powah:crafting/dielectric_casing");
 craftingTable.addShaped("dielectric_casing", <item:powah:dielectric_casing>, [
-	[plateIron, rod, plateIron],
+	[plateCopper, rod, plateIron],
 	[rod, <item:silents_mechanisms:stone_machine_frame>, rod],
-	[plateIron, rod, plateIron]
+	[plateIron, rod, plateCopper]
 ]);
 craftingTable.addShaped("dielectric_casing_2", <item:powah:dielectric_casing>, [
-	[plateIron, rodh, plateIron],
+	[plateCopper, rodh, plateIron],
 	[rodh, <item:silents_mechanisms:stone_machine_frame>, rodh],
-	[plateIron, rodh, plateIron]
+	[plateIron, rodh, plateCopper]
 ]);
 
 //Solar cell

@@ -1,47 +1,51 @@
 val air = <item:minecraft:air>;
 val plateIron = <item:immersiveengineering:plate_iron>;
 val plateGold = <item:immersiveengineering:plate_gold>;
+val tin = <item:silents_mechanisms:tin_ingot>;
+val plateNickel = <item:immersiveengineering:plate_nickel>;
+val plateLead = <item:immersiveengineering:plate_lead>;
+val plateCopper = <item:immersiveengineering:plate_copper>;
 val redstone = <item:minecraft:redstone>;
 val pearl = <item:minecraft:ender_pearl>;
 
 //Destruction gadget
 craftingTable.removeByName("buildinggadgets:gadget_destruction");
 craftingTable.addShaped("gadget_destruction", <item:buildinggadgets:gadget_destruction>, [
-	[plateIron, redstone, plateIron],
+	[plateIron, redstone, tin],
 	[pearl, redstone, pearl],
-	[plateIron, <item:minecraft:lapis_lazuli>, plateIron]
+	[tin, <item:minecraft:lapis_lazuli>, plateIron]
 ]);
 
 //Copy-paste gadget
 craftingTable.removeByName("buildinggadgets:gadget_copy_paste");
 craftingTable.addShaped("gadget_copy_paste", <item:buildinggadgets:gadget_copy_paste>, [
-	[plateIron, redstone, plateIron],
+	[plateNickel, redstone, plateGold],
 	[<item:minecraft:emerald>, redstone, <item:minecraft:emerald>],
-	[plateIron, <item:minecraft:lapis_lazuli>, plateIron]
+	[plateGold, <item:minecraft:lapis_lazuli>, plateNickel]
 ]);
 
 //Building gadget
 craftingTable.removeByName("buildinggadgets:gadget_building");
 craftingTable.addShaped("gadget_building", <item:buildinggadgets:gadget_building>, [
-	[plateIron, redstone, plateIron],
+	[plateLead, redstone, plateCopper],
 	[<item:minecraft:diamond>, redstone, <item:minecraft:diamond>],
-	[plateIron, <item:minecraft:lapis_lazuli>, plateIron]
+	[plateCopper, <item:minecraft:lapis_lazuli>, plateLead]
 ]);
 
 //Exchanging gadget
 craftingTable.removeByName("buildinggadgets:gadget_exchanging");
 craftingTable.addShaped("gadget_exchanging", <item:buildinggadgets:gadget_exchanging>, [
-	[plateIron, redstone, plateIron],
+	[plateNickel, redstone, plateNickel],
 	[<item:minecraft:diamond>, <item:minecraft:lapis_lazuli>, <item:minecraft:diamond>],
-	[plateIron, <item:minecraft:lapis_lazuli>, plateIron]
+	[plateNickel, <item:minecraft:lapis_lazuli>, plateNickel]
 ]);
 
 //Tier 1 paste container
 craftingTable.removeByName("buildinggadgets:construction_paste_container");
 craftingTable.addShaped("construction_paste_container", <item:buildinggadgets:construction_paste_container_t1>, [
-	[plateIron, plateIron, plateIron],
-	[plateIron, <item:buildinggadgets:construction_paste>, plateIron],
-	[plateIron, plateIron, plateIron]
+	[plateIron, plateLead, plateIron],
+	[plateLead, <item:buildinggadgets:construction_paste>, plateLead],
+	[plateIron, plateLead, plateIron]
 ]);
 
 //Tier 2 paste container

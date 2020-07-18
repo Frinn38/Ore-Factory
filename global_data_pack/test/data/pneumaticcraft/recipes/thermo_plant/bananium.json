@@ -1,7 +1,7 @@
 {
     "type": "pneumaticcraft:thermo_plant",
     "item_input": {
-      "item": "minecraft:gravel"
+      "item": "kubejs:bananium_chunks"
     },
     "fluid_input": {
       "type": "pneumaticcraft:fluid",
@@ -11,8 +11,14 @@
     "item_output": {
       "item": "kubejs:bananium_clump"
     },
+    "fluid_output": {
+      "type": "pneumaticcraft:fluid",
+      "fluid": "kubejs:sludge",
+      "amount": 150
+    },
     "temperature": {
       "min_temp": 373
     },
+    "pressure": 3.0,
     "exothermic": false
   }

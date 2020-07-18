@@ -1,0 +1,195 @@
+{
+	id: 3,
+	filename: "age_2",
+	order_index: 2,
+	title: "Age 2",
+	icon: "immersiveengineering:blastbrick",
+	quests: [
+		{
+			title: "Stronger tools",
+			x: -1.5d,
+			y: 0.0d,
+			description: [
+				"Compressed Iron is much more tough than Iron, with a pickaxe made of this material you can mine obsidian.",
+				"You can make compressed iron by making an explosion next to some iron ingots on the ground. Note that some iron ingots will be lost during the explosion."
+			],
+			dependencies: [I;37],
+			id: 40,
+			tasks: [{
+				id: 41,
+				type: "item",
+				item: "pneumaticcraft:ingot_iron_compressed"
+			}]
+		},
+		{
+			title: "Obsidian",
+			x: 0.0d,
+			y: 0.0d,
+			dependencies: [I;40],
+			id: 42,
+			tasks: [{
+				id: 43,
+				type: "item",
+				item: "minecraft:obsidian",
+				count: 10
+			}]
+		},
+		{
+			title: "Blast furnace",
+			x: 3.0d,
+			y: 0.0d,
+			description: ["With this furnace, you now can more process ores"],
+			dependencies: [I;
+				101,
+				49
+			],
+			dependency_requirement: "all_started",
+			id: 46,
+			tasks: [{
+				id: 103,
+				type: "advancement",
+				title: "Form a Blast Furnace",
+				icon: "immersiveengineering:blastbrick",
+				advancement: "immersiveengineering:mb_blastfurnace",
+				criterion: ""
+			}]
+		},
+		{
+			title: "Coke oven",
+			x: 3.0d,
+			y: -1.5d,
+			description: ["To use the blast furnace you have to obtain coal coke"],
+			dependencies: [I;66],
+			id: 49,
+			tasks: [{
+				id: 50,
+				type: "item",
+				item: "immersiveengineering:cokebrick",
+				count: 27
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 0.5d,
+			description: ["Yeah ! You can make vanilla farm and vanilla system like item filter with hoppers !"],
+			dependencies: [I;46],
+			id: 52,
+			tasks: [{
+				id: 53,
+				type: "item",
+				item: "minecraft:redstone",
+				count: 16
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -1.5d,
+			dependencies: [I;46],
+			id: 54,
+			tasks: [{
+				id: 55,
+				type: "item",
+				item: "silents_mechanisms:aluminum_ingot",
+				count: 16
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 1.5d,
+			dependencies: [I;
+				46,
+				106
+			],
+			id: 56,
+			tasks: [{
+				id: 57,
+				type: "item",
+				item: "silents_mechanisms:silver_ingot",
+				count: 16
+			}]
+		},
+		{
+			title: "Hammer, yeah",
+			x: 1.5d,
+			y: -1.5d,
+			description: ["Now you can craft plates and some other multiblocks from immersive engineering !"],
+			dependencies: [I;72],
+			id: 66,
+			tasks: [{
+				id: 67,
+				type: "item",
+				item: {
+					id: "immersiveengineering:hammer",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Item transfer !",
+			x: 1.5d,
+			y: -3.0d,
+			description: ["So... Yes, it is your first way to have a item transfer system, enjoy !"],
+			dependencies: [I;66],
+			id: 68,
+			tasks: [{
+				id: 69,
+				type: "item",
+				item: "minecraft:hopper"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -0.5d,
+			dependencies: [I;46],
+			id: 70,
+			tasks: [{
+				id: 71,
+				type: "item",
+				item: "silents_mechanisms:nickel_ingot",
+				count: 16
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.0d,
+			dependencies: [I;42],
+			id: 101,
+			tasks: [{
+				id: 102,
+				type: "dimension",
+				title: "The Nether",
+				dimension: "minecraft:the_nether"
+			}]
+		},
+		{
+			title: "Ravenite",
+			x: 1.5d,
+			y: 1.5d,
+			dependencies: [I;101],
+			id: 104,
+			tasks: [{
+				id: 105,
+				type: "item",
+				item: "kubejs:ravenite_ore",
+				count: 16
+			}]
+		},
+		{
+			title: "Ravenite Chunks",
+			x: 3.0d,
+			y: 1.5d,
+			description: ["Like other ores, Ravenite Ore can be crushed down to Ravenite Chunks, then processed into Silver Ingots in the Blast Furnace."],
+			dependencies: [I;104],
+			id: 106,
+			tasks: [{
+				id: 107,
+				type: "item",
+				item: "kubejs:ravenite_chunks",
+				count: 16
+			}]
+		}
+	]
+}

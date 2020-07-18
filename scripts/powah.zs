@@ -74,3 +74,8 @@ craftingTable.addShaped("photoelectric_pane", <item:powah:photoelectric_pane>, [
 	[plateLead, pane, plateLead],
 	[paste, plateLead, paste]
 ]);
+
+//Dielectric paste
+craftingTable.removeByName("powah:crafting/dielectric_paste");
+craftingTable.addShapeless("dielectric_paste", paste * 8, [<tag:minecraft:coals>, <tag:minecraft:coals>, <tag:minecraft:coals>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:lava_bucket>]);
+craftingTable.addShapeless("dielectric_paste_2", paste * 2, [<tag:minecraft:coals>, <tag:minecraft:coals>, <tag:minecraft:coals>, <item:minecraft:clay_ball>, <item:minecraft:clay_ball>, <item:minecraft:torch>]);

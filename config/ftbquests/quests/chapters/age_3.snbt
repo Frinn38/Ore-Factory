@@ -1,0 +1,161 @@
+{
+	id: 8,
+	filename: "age_3",
+	order_index: 3,
+	title: "Age 3",
+	icon: "pneumaticcraft:thermopneumatic_processing_plant",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			dependencies: [I;54],
+			id: 73,
+			tasks: [{
+				id: 74,
+				type: "item",
+				item: "pneumaticcraft:pressure_tube"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: 0.0d,
+			dependencies: [I;77],
+			id: 75,
+			tasks: [{
+				id: 76,
+				type: "item",
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 0.0d,
+			dependencies: [I;79],
+			id: 77,
+			tasks: [{
+				id: 78,
+				type: "item",
+				item: "kubejs:purified_water_bucket"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.0d,
+			dependencies: [I;73],
+			id: 79,
+			tasks: [
+				{
+					id: 80,
+					type: "item",
+					item: "pneumaticcraft:refinery"
+				},
+				{
+					id: 81,
+					type: "item",
+					item: "pneumaticcraft:refinery_output"
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: -1.5d,
+			dependencies: [I;75],
+			id: 82,
+			tasks: [{
+				id: 83,
+				type: "item",
+				item: "kubejs:saphirium_clump"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -0.5d,
+			dependencies: [I;75],
+			id: 84,
+			tasks: [{
+				id: 85,
+				type: "item",
+				item: "kubejs:rubium_clump"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 0.5d,
+			dependencies: [I;75],
+			id: 86,
+			tasks: [{
+				id: 87,
+				type: "item",
+				item: "kubejs:olivium_clump"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 1.5d,
+			dependencies: [I;75],
+			id: 88,
+			tasks: [{
+				id: 89,
+				type: "item",
+				item: "kubejs:bananium_clump"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -2.5d,
+			dependencies: [I;75],
+			id: 90,
+			tasks: [{
+				id: 91,
+				type: "item",
+				item: "kubejs:purpurite_clump"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 2.5d,
+			dependencies: [I;75],
+			id: 92,
+			tasks: [{
+				id: 93,
+				type: "item",
+				item: "kubejs:ravenite_clump"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 0.5d,
+			dependencies: [I;86],
+			id: 94,
+			tasks: [{
+				id: 95,
+				type: "item",
+				item: "powah:uraninite"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 2.5d,
+			dependencies: [I;92],
+			id: 96,
+			tasks: [{
+				id: 97,
+				type: "item",
+				item: "silents_mechanisms:aluminum_ingot"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 0.0d,
+			description: ["Now you can with the crusher of immersive engineering obtain more ressources with ores clumps !"],
+			dependencies: [I;75],
+			id: 98,
+			tasks: [{
+				id: 99,
+				type: "checkmark",
+				title: "Info",
+				tags: ["fezbfzkvfef"]
+			}]
+		}
+	]
+}

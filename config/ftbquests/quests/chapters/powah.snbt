@@ -1,0 +1,429 @@
+{
+	id: 108,
+	filename: "powah",
+	order_index: 4,
+	title: "Powah",
+	icon: "powah:dielectric_casing",
+	quests: [
+		{
+			title: "Dielectric Paste",
+			x: -0.5d,
+			y: -0.5d,
+			shape: "square",
+			description: ["Dielectric Paste is the most basic component for Powah."],
+			dependencies: [I;7],
+			id: 109,
+			tasks: [{
+				id: 110,
+				type: "item",
+				item: "powah:dielectric_paste",
+				count: 8
+			}]
+		},
+		{
+			title: "Basic Tier",
+			icon: "powah:capacitor_basic",
+			x: 1.0d,
+			y: -0.5d,
+			description: ["Nearly all Powah generators needs this casing."],
+			dependencies: [I;109],
+			id: 111,
+			tasks: [
+				{
+					id: 112,
+					type: "item",
+					item: "powah:dielectric_casing"
+				},
+				{
+					id: 142,
+					type: "item",
+					item: "powah:capacitor_basic",
+					count: 2
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: -2.0d,
+			dependencies: [I;115],
+			id: 113,
+			tasks: [{
+				id: 114,
+				type: "item",
+				item: "powah:energy_cell_starter"
+			}]
+		},
+		{
+			title: "Starter Tier",
+			icon: "powah:capacitor_basic_tiny",
+			x: 1.0d,
+			y: -2.0d,
+			description: ["The Tiny Basic Capacitor is the main component for all Powah Starters generators."],
+			dependencies: [I;
+				109,
+				128
+			],
+			id: 115,
+			tasks: [
+				{
+					id: 116,
+					type: "item",
+					item: "powah:capacitor_basic_tiny",
+					count: 2
+				},
+				{
+					id: 117,
+					type: "item",
+					item: "silents_mechanisms:stone_machine_frame"
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: -2.0d,
+			dependencies: [I;115],
+			id: 118,
+			tasks: [{
+				id: 119,
+				type: "item",
+				item: "powah:furnator_starter"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -2.0d,
+			dependencies: [I;115],
+			id: 120,
+			tasks: [{
+				id: 121,
+				type: "item",
+				item: "powah:magmator_starter"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -2.0d,
+			dependencies: [I;115],
+			id: 122,
+			tasks: [{
+				id: 123,
+				type: "item",
+				item: "powah:solar_panel_starter"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -2.0d,
+			dependencies: [I;115],
+			id: 124,
+			tasks: [{
+				id: 125,
+				type: "item",
+				item: "powah:thermo_generator_starter"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -2.0d,
+			dependencies: [I;115],
+			id: 126,
+			tasks: [{
+				id: 127,
+				type: "item",
+				item: "powah:ender_cell_starter"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: -2.0d,
+			dependencies: [I;115],
+			id: 128,
+			tasks: [{
+				id: 129,
+				type: "item",
+				item: "powah:energy_cable_starter"
+			}]
+		},
+		{
+			x: 9.5d,
+			y: -2.0d,
+			dependencies: [I;115],
+			id: 130,
+			tasks: [{
+				id: 131,
+				type: "item",
+				item: "powah:ender_gate_starter"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -2.0d,
+			dependencies: [I;115],
+			id: 132,
+			tasks: [{
+				id: 133,
+				type: "item",
+				item: "powah:reactor_starter"
+			}]
+		},
+		{
+			x: 11.5d,
+			y: -2.0d,
+			dependencies: [I;115],
+			id: 134,
+			tasks: [{
+				id: 135,
+				type: "item",
+				item: "powah:player_transmitter_starter"
+			}]
+		},
+		{
+			x: 13.5d,
+			y: -2.0d,
+			dependencies: [I;115],
+			id: 136,
+			tasks: [{
+				id: 137,
+				type: "item",
+				item: "powah:energy_hopper_starter"
+			}]
+		},
+		{
+			x: 14.5d,
+			y: -2.0d,
+			dependencies: [I;115],
+			id: 138,
+			tasks: [{
+				id: 139,
+				type: "item",
+				item: "powah:energy_discharger_starter"
+			}]
+		},
+		{
+			x: 15.5d,
+			y: -2.0d,
+			dependencies: [I;115],
+			id: 140,
+			tasks: [{
+				id: 141,
+				type: "item",
+				item: {
+					id: "powah:battery_starter",
+					Count: 1,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -0.5d,
+			dependencies: [I;
+				111,
+				113
+			],
+			id: 143,
+			tasks: [{
+				id: 144,
+				type: "item",
+				item: "powah:energy_cell_basic"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -0.5d,
+			dependencies: [I;
+				111,
+				118
+			],
+			id: 145,
+			tasks: [{
+				id: 146,
+				type: "item",
+				item: "powah:furnator_basic"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -0.5d,
+			dependencies: [I;
+				111,
+				120
+			],
+			id: 147,
+			tasks: [{
+				id: 148,
+				type: "item",
+				item: "powah:magmator_basic"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -0.5d,
+			dependencies: [I;
+				111,
+				122
+			],
+			id: 149,
+			tasks: [{
+				id: 150,
+				type: "item",
+				item: "powah:solar_panel_basic"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -0.5d,
+			dependencies: [I;
+				111,
+				124
+			],
+			id: 151,
+			tasks: [{
+				id: 152,
+				type: "item",
+				item: "powah:thermo_generator_basic"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -0.5d,
+			dependencies: [I;
+				111,
+				126
+			],
+			id: 153,
+			tasks: [{
+				id: 154,
+				type: "item",
+				item: "powah:ender_cell_basic"
+			}]
+		},
+		{
+			x: 8.5d,
+			y: -0.5d,
+			dependencies: [I;
+				111,
+				128
+			],
+			id: 155,
+			tasks: [{
+				id: 156,
+				type: "item",
+				item: "powah:energy_cable_basic"
+			}]
+		},
+		{
+			x: 9.5d,
+			y: -0.5d,
+			dependencies: [I;
+				111,
+				130
+			],
+			id: 157,
+			tasks: [{
+				id: 158,
+				type: "item",
+				item: "powah:ender_gate_basic"
+			}]
+		},
+		{
+			x: 12.5d,
+			y: -0.5d,
+			dependencies: [I;
+				111,
+				171
+			],
+			id: 159,
+			tasks: [{
+				id: 160,
+				type: "item",
+				item: "powah:energizing_rod_basic"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -0.5d,
+			dependencies: [I;
+				111,
+				132
+			],
+			id: 161,
+			tasks: [{
+				id: 162,
+				type: "item",
+				item: "powah:reactor_basic"
+			}]
+		},
+		{
+			x: 13.5d,
+			y: -0.5d,
+			dependencies: [I;
+				111,
+				136
+			],
+			id: 163,
+			tasks: [{
+				id: 164,
+				type: "item",
+				item: "powah:energy_hopper_basic"
+			}]
+		},
+		{
+			x: 14.5d,
+			y: -0.5d,
+			dependencies: [I;
+				111,
+				138
+			],
+			id: 165,
+			tasks: [{
+				id: 166,
+				type: "item",
+				item: "powah:energy_discharger_basic"
+			}]
+		},
+		{
+			x: 15.5d,
+			y: -0.5d,
+			dependencies: [I;
+				111,
+				140
+			],
+			id: 167,
+			tasks: [{
+				id: 168,
+				type: "item",
+				item: {
+					id: "powah:battery_basic",
+					Count: 1,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: 11.5d,
+			y: -0.5d,
+			dependencies: [I;
+				111,
+				134
+			],
+			id: 169,
+			tasks: [{
+				id: 170,
+				type: "item",
+				item: "powah:player_transmitter_basic"
+			}]
+		},
+		{
+			x: 12.5d,
+			y: -2.0d,
+			dependencies: [I;115],
+			id: 171,
+			tasks: [{
+				id: 172,
+				type: "item",
+				item: "powah:energizing_rod_starter"
+			}]
+		}
+	]
+}

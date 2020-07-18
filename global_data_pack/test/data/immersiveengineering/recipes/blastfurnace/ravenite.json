@@ -2,7 +2,7 @@
   "type": "immersiveengineering:blast_furnace",
   "result": {
     "base_ingredient": {
-      "tag": "forge:ingots/aluminum"
+      "tag": "forge:ingots/silver"
     },
     "count": 1
   },
@@ -10,7 +10,7 @@
     "item": "kubejs:ravenite_chunks"
   },
   "slag": {
-    "item": "minecraft:redstone"
+    "item": "minecraft:tin"
   },
   "time": 100
 }

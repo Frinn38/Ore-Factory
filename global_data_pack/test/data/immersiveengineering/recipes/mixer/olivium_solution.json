@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:mixer",
+    "inputs": [
+      {
+        "count": 1,
+        "base_ingredient": {
+          "item": "kubejs:olivium_clump"
+        }
+      }
+    ],
+    "result": {
+      "fluid": "kubejs:olivium_solution",
+      "amount": 250
+    },
+    "fluid": {
+      "fluid": "mekanism:sulfuric_acid",
+      "amount": 250
+    },
+    "energy": 5000
+  }

@@ -42,9 +42,19 @@
 	"item.kubejs.ravenite_crystal": "Ravenite Crystal",
 
 	"item.kubejs.purified_water_bucket": "Purified Water Bucket",
-
-	"fluid.kubejs.purified_water": "Purified Water",
 	"item.kubejs.sludge_bucket": "Sludge Bucket",
-
-	"fluid.kubejs.sludge": "Sludge"
+	"item.kubejs.bananium_solution_bucket": "Bananium Solution Bucket",
+	"item.kubejs.olivium_solution_bucket": "Olivium Solution Bucket",
+	"item.kubejs.purpurite_solution_bucket": "Purpurite Solution Bucket",
+	"item.kubejs.ravenite_solution_bucket": "Ravenite Solution Bucket",
+	"item.kubejs.rubium_solution_bucket": "Rubium Solution Bucket",
+	"item.kubejs.saphirium_solution_bucket": "Saphirium Solution Bucket",
+	"fluid.kubejs.sludge": "Sludge",
+	"fluid.kubejs.purified_water": "Purified Water",
+	"fluid.kubejs.bananium_solution": "Bananium Solution",
+	"fluid.kubejs.olivium_solution": "Olivium Solution",
+	"fluid.kubejs.purpurite_solution": "Purpurite Solution",
+	"fluid.kubejs.ravenite_solution": "Ravenite Solution",
+	"fluid.kubejs.rubium_solution": "Rubium Solution",
+	"fluid.kubejs.saphirium_solution": "Saphirium Solution"
 }

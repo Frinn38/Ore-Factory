@@ -1,0 +1,20 @@
+{
+    "type": "immersiveengineering:mixer",
+    "inputs": [
+      {
+        "count": 1,
+        "base_ingredient": {
+          "item": "kubejs:purpurite_clump"
+        }
+      }
+    ],
+    "result": {
+      "fluid": "kubejs:purpurite_solution",
+      "amount": 250
+    },
+    "fluid": {
+      "fluid": "mekanism:sulfuric_acid",
+      "amount": 250
+    },
+    "energy": 5000
+  }

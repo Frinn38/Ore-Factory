@@ -1,0 +1,17 @@
+{
+    "type": "silents_mechanisms:refining",
+    "process_time": 100,
+    "ingredient": {
+        "fluid": "minecraft:water"
+    },
+    "results": [
+        {
+            "fluid": "kubejs:purified_water",
+            "amount": 200
+        },
+        {
+            "fluid": "kubejs:sludge",
+            "amount": 800
+        }
+    ]
+}

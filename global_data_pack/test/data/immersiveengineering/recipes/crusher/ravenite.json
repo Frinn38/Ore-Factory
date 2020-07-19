@@ -4,22 +4,22 @@
       {
         "chance": 1,
         "output": {
-          "item": "silents_mechanisms:aluminum_ingot",
+          "item": "silents_mechanisms:silver_ingot",
           "count": 2
         }
       },
       {
         "chance": 1,
         "output": {
-          "item": "silents_mechanisms:copper_ingot",
+          "item": "silents_mechanisms:tin_ingot",
           "count": 1
         }
       },
       {
         "chance": 1,
         "output": {
-          "item": "minecraft:redstone",
-          "count": 2
+          "item": "minecraft:iron_ingot",
+          "count": 1
         }
       }
     ],

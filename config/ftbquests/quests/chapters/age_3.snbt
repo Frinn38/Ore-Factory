@@ -135,8 +135,8 @@
 		},
 		{
 			x: 7.5d,
-			y: 2.5d,
-			dependencies: [I;92],
+			y: -2.5d,
+			dependencies: [I;90],
 			id: 96,
 			tasks: [{
 				id: 97,
@@ -155,6 +155,120 @@
 				type: "checkmark",
 				title: "Info",
 				tags: ["fezbfzkvfef"]
+			}]
+		},
+		{
+			title: "Pressure Chamber",
+			icon: "pneumaticcraft:pressure_chamber_wall",
+			x: 0.0d,
+			y: 1.5d,
+			description: [
+				"The pressure chamber is a cubic multiblock that can be used to compress some items into others.",
+				"The structure must be a hollow cube with dimensions of 3x3x3, 4x4x4 or 5x5x5."
+			],
+			dependencies: [I;73],
+			id: 173,
+			tasks: [
+				{
+					id: 174,
+					type: "item",
+					item: "pneumaticcraft:pressure_chamber_wall",
+					count: 16
+				},
+				{
+					id: 175,
+					type: "item",
+					item: "pneumaticcraft:pressure_chamber_valve"
+				},
+				{
+					id: 176,
+					type: "item",
+					item: "pneumaticcraft:pressure_chamber_interface"
+				}
+			]
+		},
+		{
+			title: "Carbonite",
+			x: 0.0d,
+			y: 3.0d,
+			description: ["Some compressed Carbon, you can either crush this to obtain some coal, or compress again to make Diamonds."],
+			dependencies: [I;173],
+			id: 177,
+			tasks: [{
+				id: 178,
+				type: "item",
+				item: "kubejs:carbonite",
+				count: 4
+			}]
+		},
+		{
+			title: "Coal",
+			x: -0.5d,
+			y: 4.5d,
+			description: ["A real coal, now you can put your axe down and stop destroying nature for making charcoal."],
+			dependencies: [I;177],
+			id: 179,
+			tasks: [{
+				id: 180,
+				type: "item",
+				item: "minecraft:coal",
+				count: 16
+			}]
+		},
+		{
+			title: "Diamonds !!!",
+			x: 0.5d,
+			y: 4.5d,
+			description: ["Your first diamonds, this precious material will be very usefull both for upgrading tools and machines."],
+			dependencies: [I;177],
+			id: 181,
+			tasks: [{
+				id: 182,
+				type: "item",
+				item: "minecraft:diamond",
+				count: 4
+			}]
+		},
+		{
+			title: "Redstonite",
+			x: 1.5d,
+			y: 3.0d,
+			description: ["A big chunk of Redstone."],
+			dependencies: [I;173],
+			id: 183,
+			tasks: [{
+				id: 184,
+				type: "item",
+				item: "kubejs:redstonite",
+				count: 4
+			}]
+		},
+		{
+			title: "Lazulite",
+			x: -1.5d,
+			y: 3.0d,
+			description: ["Compressed Lapis-Lazuli, crush this to obtain lapis."],
+			dependencies: [I;173],
+			id: 185,
+			tasks: [{
+				id: 186,
+				type: "item",
+				item: "kubejs:lazulite",
+				count: 4
+			}]
+		},
+		{
+			title: "Lapis-Lazuli",
+			x: -1.5d,
+			y: 4.5d,
+			description: ["Used for enchanting, this material is also very usefull for making upgrades for your stuff."],
+			dependencies: [I;185],
+			id: 187,
+			tasks: [{
+				id: 188,
+				type: "item",
+				item: "minecraft:lapis_lazuli",
+				count: 4
 			}]
 		}
 	]

@@ -1,0 +1,15 @@
+{
+	"type": "silents_mechanisms:crushing",
+	"process_time": 400,
+	"ingredient": {"item": "kubejs:lazulite"},
+	"results": [
+		{
+			"item": "minecraft:lapis_lazuli",
+			"count": 4
+		},
+		{
+			"item": "minecraft:gravel",
+			"count": 1
+		}
+	]
+}

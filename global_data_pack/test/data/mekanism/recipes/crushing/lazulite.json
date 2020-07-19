@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "kubejs:lazulite"
+    }
+  },
+  "output": {
+    "item": "minecraft:lapis_lazuli",
+    "count": 4
+  }
+}

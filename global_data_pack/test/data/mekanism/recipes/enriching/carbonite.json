@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "kubejs:carbonite"
+    }
+  },
+  "output": {
+    "item": "minecraft:diamond"
+  }
+}

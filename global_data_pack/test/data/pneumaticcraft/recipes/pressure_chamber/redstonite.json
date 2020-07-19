@@ -1,0 +1,19 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "item": "kubejs:rubium_chunks",
+      "count": 2
+    },
+    {
+      "item": "kubejs:ravenite_chunks"
+    }
+  ],
+  "pressure": 3,
+  "results": [
+    {
+      "item": "kubejs:redstonite"
+    }
+  ]
+}

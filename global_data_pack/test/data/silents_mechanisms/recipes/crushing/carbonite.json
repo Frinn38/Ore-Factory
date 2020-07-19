@@ -1,0 +1,15 @@
+{
+	"type": "silents_mechanisms:crushing",
+	"process_time": 400,
+	"ingredient": {"item": "kubejs:carbonite"},
+	"results": [
+		{
+			"item": "minecraft:coal",
+			"count": 4
+		},
+		{
+			"item": "minecraft:gravel",
+			"count": 1
+		}
+	]
+}

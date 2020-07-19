@@ -35,4 +35,8 @@ events.listen('item.registry', function (event) {
 	event.create('bananium_crystal')
 	event.create('purpurite_crystal')
 	event.create('ravenite_crystal')
+
+	event.create('redstonite')
+	event.create('lazulite')
+	event.create('carbonite')
 })

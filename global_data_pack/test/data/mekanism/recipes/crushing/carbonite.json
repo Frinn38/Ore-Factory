@@ -1,0 +1,12 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "ingredient": {
+      "item": "kubejs:carbonite"
+    }
+  },
+  "output": {
+    "item": "minecraft:coal",
+    "count": 4
+  }
+}

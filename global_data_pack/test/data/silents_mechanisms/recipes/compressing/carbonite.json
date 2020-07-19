@@ -1,0 +1,10 @@
+{
+  "type": "silents_mechanisms:compressing",
+  "process_time": 400,
+  "ingredient": {
+    "item": "kubejs:carbonite"
+  },
+  "result": {
+    "item": "minecraft:diamond"
+  }
+}

@@ -158,14 +158,6 @@ craftingTable.addShaped("smithing_table", <item:minecraft:smithing_table>, [
 	[plank, plank]
 ]);
 
-//Crossbow
-craftingTable.removeByName("minecraft:crossbow");
-craftingTable.addShaped("crossbow", <item:minecraft:crossbow>, [
-	[stick, plateIron, stick],
-	[strings, <item:minecraft:tripwire_hook>, strings],
-	[air, stick, air]
-]);
-
 //Clock
 craftingTable.removeByName("minecraft:clock");
 craftingTable.addShaped("clock", <item:minecraft:clock>, [
@@ -191,67 +183,67 @@ craftingTable.removeByName("minecraft:golden_apple");
 craftingTable.removeByName("minecraft:diamond_hoe");
 craftingTable.removeByName("minecraft:diamond_axe");
 craftingTable.removeByName("minecraft:diamond_sword");
-mods.jei.JEI.hideItem(<item:minecraft:diamond_hoe>);
-mods.jei.JEI.hideItem(<item:minecraft:diamond_axe>);
-mods.jei.JEI.hideItem(<item:minecraft:diamond_sword>);
+mods.jei.JEI.addInfo(<item:minecraft:diamond_hoe>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:diamond_axe>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:diamond_sword>, ["Disabled, use silent gear"]);
 
 craftingTable.removeByName("minecraft:golden_hoe");
 craftingTable.removeByName("minecraft:golden_shovel");
 craftingTable.removeByName("minecraft:golden_axe");
 craftingTable.removeByName("minecraft:golden_pickaxe");
 craftingTable.removeByName("minecraft:golden_sword");
-mods.jei.JEI.hideItem(<item:minecraft:golden_hoe>);
-mods.jei.JEI.hideItem(<item:minecraft:golden_shovel>);
-mods.jei.JEI.hideItem(<item:minecraft:golden_axe>);
-mods.jei.JEI.hideItem(<item:minecraft:golden_pickaxe>);
-mods.jei.JEI.hideItem(<item:minecraft:golden_sword>);
+mods.jei.JEI.addInfo(<item:minecraft:golden_hoe>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:golden_shovel>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:golden_axe>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:golden_pickaxe>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:golden_sword>, ["Disabled, use silent gear"]);
 
 craftingTable.removeByName("minecraft:stone_hoe");
 craftingTable.removeByName("minecraft:stone_shovel");
 craftingTable.removeByName("minecraft:stone_axe");
 craftingTable.removeByName("minecraft:stone_pickaxe");
 craftingTable.removeByName("minecraft:stone_sword");
-mods.jei.JEI.hideItem(<item:minecraft:stone_hoe>);
-mods.jei.JEI.hideItem(<item:minecraft:stone_shovel>);
-mods.jei.JEI.hideItem(<item:minecraft:stone_axe>);
-mods.jei.JEI.hideItem(<item:minecraft:stone_pickaxe>);
-mods.jei.JEI.hideItem(<item:minecraft:stone_sword>);
+mods.jei.JEI.addInfo(<item:minecraft:stone_hoe>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:stone_shovel>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:stone_axe>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:stone_pickaxe>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:stone_sword>, ["Disabled, use silent gear"]);
 
 craftingTable.removeByName("minecraft:wooden_hoe");
 craftingTable.removeByName("minecraft:wooden_shovel");
 craftingTable.removeByName("minecraft:wooden_axe");
 craftingTable.removeByName("minecraft:wooden_pickaxe");
 craftingTable.removeByName("minecraft:wooden_sword");
-mods.jei.JEI.hideItem(<item:minecraft:wooden_hoe>);
-mods.jei.JEI.hideItem(<item:minecraft:wooden_shovel>);
-mods.jei.JEI.hideItem(<item:minecraft:wooden_axe>);
-mods.jei.JEI.hideItem(<item:minecraft:wooden_pickaxe>);
-mods.jei.JEI.hideItem(<item:minecraft:wooden_sword>);
+mods.jei.JEI.addInfo(<item:minecraft:wooden_hoe>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:wooden_shovel>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:wooden_axe>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:wooden_pickaxe>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:wooden_sword>, ["Disabled, use silent gear"]);
 
 craftingTable.removeByName("minecraft:iron_hoe");
 craftingTable.removeByName("minecraft:iron_shovel");
 craftingTable.removeByName("minecraft:iron_axe");
 craftingTable.removeByName("minecraft:iron_pickaxe");
 craftingTable.removeByName("minecraft:iron_sword");
-mods.jei.JEI.hideItem(<item:minecraft:iron_hoe>);
-mods.jei.JEI.hideItem(<item:minecraft:iron_shovel>);
-mods.jei.JEI.hideItem(<item:minecraft:iron_axe>);
-mods.jei.JEI.hideItem(<item:minecraft:iron_pickaxe>);
-mods.jei.JEI.hideItem(<item:minecraft:iron_sword>);
+mods.jei.JEI.addInfo(<item:minecraft:iron_hoe>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:iron_shovel>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:iron_axe>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:iron_pickaxe>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:iron_sword>, ["Disabled, use silent gear"]);
 
 craftingTable.removeByName("minecraft:shears");
 craftingTable.removeByName("minecraft:shield");
 craftingTable.removeByName("minecraft:crossbow");
-mods.jei.JEI.hideItem(<item:minecraft:crossbow>);
-mods.jei.JEI.hideItem(<item:minecraft:shears>);
-mods.jei.JEI.hideItem(<item:minecraft:shield>);
+mods.jei.JEI.addInfo(<item:minecraft:crossbow>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:shears>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:shield>, ["Disabled, use silent gear"]);
 
 //Remove useless armors
 craftingTable.removeByName("minecraft:chainmail_helmet");
 craftingTable.removeByName("minecraft:chainmail_chestplate");
 craftingTable.removeByName("minecraft:chainmail_leggings");
 craftingTable.removeByName("minecraft:chainmail_boots");
-mods.jei.JEI.hideItem(<item:minecraft:chainmail_helmet>);
-mods.jei.JEI.hideItem(<item:minecraft:chainmail_chestplate>);
-mods.jei.JEI.hideItem(<item:minecraft:chainmail_leggings>);
-mods.jei.JEI.hideItem(<item:minecraft:chainmail_boots>);
+mods.jei.JEI.addInfo(<item:minecraft:chainmail_helmet>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:chainmail_chestplate>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:chainmail_leggings>, ["Disabled, use silent gear"]);
+mods.jei.JEI.addInfo(<item:minecraft:chainmail_boots>, ["Disabled, use silent gear"]);

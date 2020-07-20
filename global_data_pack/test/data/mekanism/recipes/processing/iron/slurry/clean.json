@@ -1,1 +1,0 @@
-{"type":"mekanism:washing","fluidInput":{"amount":5,"fluid":"minecraft:water"},"gasInput":{"amount":1,"gas":"mekanism:dirty_iron_slurry"},"output":{"gas":"mekanism:clean_iron_slurry","amount":1}}

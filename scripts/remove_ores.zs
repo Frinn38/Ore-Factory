@@ -1,4 +1,3 @@
-#priority 999
 import mods.jei.JEI as jei;
 
 #Copper ore

@@ -1,0 +1,21 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "item_input": {
+      "item": "minecraft:redstone"
+    },
+    "fluid_input": {
+        "type": "pneumaticcraft:fluid",
+        "fluid": "mekanism:sulfuric_acid",
+        "amount": 256
+    },
+    "fluid_output": {
+      "type": "pneumaticcraft:fluid",
+      "fluid": "kubejs:redstone_fluid",
+      "amount": 256
+    },
+    "temperature": {
+      "min_temp": 373
+    },
+    "pressure": 2.0,
+    "exothermic": false
+  }

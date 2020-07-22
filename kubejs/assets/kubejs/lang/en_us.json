@@ -55,6 +55,7 @@
 	"item.kubejs.saphirium_solution_bucket": "Saphirium Solution Bucket",
 	"item.kubejs.certus_quartz_solution_bucket": "Certus Quartz Solution Bucket",
 	"item.kubejs.fluix_solution_bucket": "Fluix Solution Bucket",
+	"item.kubejs.redstone_fluid_bucket": "Redstone Fluid Bucket",
 
 	"fluid.kubejs.sludge": "Sludge",
 	"fluid.kubejs.purified_water": "Purified Water",
@@ -65,5 +66,6 @@
 	"fluid.kubejs.rubium_solution": "Rubium Solution",
 	"fluid.kubejs.saphirium_solution": "Saphirium Solution",
 	"fluid.kubejs.certus_quartz_solution": "Certus Quartz Solution",
-	"fluid.kubejs.fluix_solution": "Fluix Solution"
+	"fluid.kubejs.fluix_solution": "Fluix Solution",
+	"fluid.kubejs.redstone_fluid": "Redstone Fluid"
 }

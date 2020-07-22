@@ -9,6 +9,10 @@
         {
             "fluid": "immersiveengineering:plantoil",
             "amount": 1000
+        },
+        {
+            "fluid": "kubejs:redstone_fluid",
+            "amount": 1000
         }
     ],
     "result": {

@@ -7,6 +7,7 @@ events.listen('fluid.registry', function (event) {
   event.create("ravenite_solution").color(2236962).luminosity(0);
   event.create("rubium_solution").color(13572120).luminosity(0);
   event.create("saphirium_solution").color(1653241).luminosity(0);
-  event.create("certus_quartz_solution").color(13951153).luminosity(0);
+  event.create("certus_quartz_solution").color(12117759).luminosity(0);
   event.create("fluix_solution").color(9511666).luminosity(0);
+  event.create("redstone_fluid").color(16711680).luminosity(0);
 })

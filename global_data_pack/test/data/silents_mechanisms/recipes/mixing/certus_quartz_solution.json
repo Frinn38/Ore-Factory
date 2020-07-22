@@ -3,7 +3,7 @@
     "process_time": 600,
     "ingredients": [
         {
-            "fluid": "midnight:dark_water",
+            "fluid": "kubejs:purified_water",
             "amount": 1000
         },
         {
@@ -12,7 +12,7 @@
         }
     ],
     "result": {
-        "fluid": "kubejs:fluix_solution",
+        "fluid": "kubejs:certus_quartz_solution",
         "amount": 1000
     }
 }

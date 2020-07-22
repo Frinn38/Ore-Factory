@@ -1,0 +1,19 @@
+{
+    "type": "pneumaticcraft:thermo_plant",
+    "item_input": {
+      "tag": "minecraft:sand"
+    },
+    "fluid_input": {
+      "type": "pneumaticcraft:fluid",
+      "fluid": "kubejs:certus_quartz_solution",
+      "amount": 100
+    },
+    "item_output": {
+      "item": "appliedenergistics2:certus_crystal_seed"
+    },
+    "temperature": {
+      "min_temp": 373
+    },
+    "pressure": 3.0,
+    "exothermic": false
+  }

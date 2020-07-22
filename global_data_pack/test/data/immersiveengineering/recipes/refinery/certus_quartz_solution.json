@@ -1,0 +1,16 @@
+{
+    "type": "immersiveengineering:refinery",
+    "result": {
+      "fluid": "kubejs:certus_quartz_solution",
+      "amount": 10
+    },
+    "input0": {
+      "fluid": "kubejs:purified_water",
+      "amount": 10
+    },
+    "input1": {
+      "fluid": "immersiveengineering:plantoil",
+      "amount": 10
+    },
+    "energy": 100
+  }

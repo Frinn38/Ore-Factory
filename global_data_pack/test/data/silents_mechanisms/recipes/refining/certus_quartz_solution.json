@@ -1,0 +1,18 @@
+{
+    "type": "silents_mechanisms:mixing",
+    "process_time": 600,
+    "ingredients": [
+        {
+            "fluid": "kubejs:purified_water",
+            "amount": 10
+        },
+        {
+            "fluid": "immersiveengineering:plantoil",
+            "amount": 10
+        }
+    ],
+    "result": {
+        "fluid": "kubejs:certus_quartz_solution",
+        "amount": 10
+    }
+}

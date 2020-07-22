@@ -241,48 +241,108 @@ craftingTable.addShaped("panels_semi_dark_monitor", <item:appliedenergistics2:se
 
 //Inscriber
 craftingTable.removeByName("appliedenergistics2:network/blocks/inscribers");
+craftingTable.addShaped("inscriber", <item:appliedenergistics2:inscriber>, [
+[plateIron, <item:minecraft:sticky_piston>, plateIron],
+[<tag:appliedenergistics2:crystals/fluix>, <item:minecraft:air>, plateIron],
+[plateIron, <item:minecraft:sticky_piston>, plateIron]]);
 
 //ME drive
 craftingTable.removeByName("appliedenergistics2:network/blocks/storage_drive");
+craftingTable.addShaped("drive", <item:appliedenergistics2:drive>, [
+[plateIron, <item:appliedenergistics2:engineering_processor>, plateIron],
+[<item:appliedenergistics2:fluix_glass_cable>, <item:minecraft:air>, <item:appliedenergistics2:fluix_glass_cable>],
+[plateIron, <item:appliedenergistics2:engineering_processor>, plateIron]]);
 
-//ME interface
+//charger
+craftingTable.removeByName("appliedenergistics2:network/blocks/crystal_processing_charger");
+craftingTable.addShaped("charger", <item:appliedenergistics2:charger>, [
+[plateIron, <tag:appliedenergistics2:crystals/fluix>, plateIron],
+[plateIron, <item:minecraft:air>, <item:minecraft:air>],
+[plateIron, <tag:appliedenergistics2:crystals/fluix>, plateIron]]);
+
+//crafting_unit
+craftingTable.removeByName("appliedenergistics2:network/crafting/cpu_crafting_unit");
+craftingTable.addShaped("crafting_unit", <item:appliedenergistics2:crafting_unit>, [
+[plateIron, <item:appliedenergistics2:calculation_processor>, plateIron],
+[<item:appliedenergistics2:fluix_glass_cable>, <item:appliedenergistics2:logic_processor>, <item:appliedenergistics2:fluix_glass_cable>],
+[plateIron, <item:appliedenergistics2:calculation_processor>, plateIron]]);
+
+//molecular_assembler
+craftingTable.removeByName("appliedenergistics2:network/crafting/molecular_assembler");
+craftingTable.addShaped("molecular_assembler", <item:appliedenergistics2:molecular_assembler>, [
+[plateIron, <item:appliedenergistics2:quartz_glass>, plateIron],
+[<item:appliedenergistics2:annihilation_core>, <tag:appliedenergistics2:workbench>, <item:appliedenergistics2:formation_core>],
+[plateIron, <item:appliedenergistics2:quartz_glass>, plateIron]]);
+
+//chest
+craftingTable.removeByName("appliedenergistics2:network/blocks/storage_chest");
+craftingTable.addShaped("aechest", <item:appliedenergistics2:chest>, [
+[<tag:appliedenergistics2:glass>, <item:appliedenergistics2:terminal>, <tag:appliedenergistics2:glass>],
+[<item:appliedenergistics2:fluix_glass_cable>, <item:minecraft:air>, <item:appliedenergistics2:fluix_glass_cable>],
+[plateIron, <tag:appliedenergistics2:crystals/fluix>, plateIron]]);
+
+//security_station
+craftingTable.removeByName("appliedenergistics2:network/blocks/security_station");
+craftingTable.addShaped("security_station", <item:appliedenergistics2:security_station>, [
+[plateIron, <item:appliedenergistics2:chest>, plateIron],
+[<item:appliedenergistics2:fluix_glass_cable>, <item:appliedenergistics2:16k_cell_component>, <item:appliedenergistics2:fluix_glass_cable>],
+[plateIron, <item:appliedenergistics2:engineering_processor>, plateIron]]);
+
+//energy_acceptor
+craftingTable.removeByName("appliedenergistics2:network/blocks/energy_energy_acceptor");
+craftingTable.addShaped("energy_acceptor", <item:appliedenergistics2:energy_acceptor>, [
+[plateIron, <item:appliedenergistics2:quartz_glass>, plateIron],
+[<item:appliedenergistics2:quartz_glass>, <tag:appliedenergistics2:crystals/fluix>, <item:appliedenergistics2:quartz_glass>],
+[plateIron, <item:appliedenergistics2:quartz_glass>, plateIron]]);
+
+//quartz_growth_accelerator
+craftingTable.removeByName("appliedenergistics2:network/blocks/crystal_processing_quartz_growth_accelerator");
+craftingTable.addShaped("quartz_growth_accelerator", <item:appliedenergistics2:quartz_growth_accelerator>, [
+[plateIron, <item:appliedenergistics2:fluix_glass_cable>, plateIron],
+[<item:appliedenergistics2:quartz_glass>, <item:appliedenergistics2:fluix_block>, <item:appliedenergistics2:quartz_glass>],
+[plateIron, <item:appliedenergistics2:fluix_glass_cable>, plateIron]]);
+
+//spatial_io_port
+craftingTable.removeByName("appliedenergistics2:network/blocks/spatial_io_port");
+craftingTable.addShaped("spatial_io_port", <item:appliedenergistics2:spatial_io_port>, [
+[<tag:appliedenergistics2:glass>, <tag:appliedenergistics2:glass>, <tag:appliedenergistics2:glass>],
+[<item:appliedenergistics2:fluix_glass_cable>, <item:appliedenergistics2:io_port>, <item:appliedenergistics2:fluix_glass_cable>],
+[plateIron, <item:appliedenergistics2:engineering_processor>, plateIron]]);
+
+//condenser
+craftingTable.removeByName("appliedenergistics2:network/blocks/io_condenser");
+craftingTable.addShaped("condenser", <item:appliedenergistics2:condenser>, [
+[plateIron, <tag:appliedenergistics2:glass>, plateIron],
+[<tag:appliedenergistics2:glass>, <tag:appliedenergistics2:dusts/fluix>, <tag:appliedenergistics2:glass>],
+[plateIron, <tag:appliedenergistics2:glass>, plateIron]]);
+
+//ME Interface
 craftingTable.removeByName("appliedenergistics2:network/blocks/interfaces_interface");
+craftingTable.addShaped("me_interface", <item:appliedenergistics2:interface>, [
+[plateIron, <tag:appliedenergistics2:glass>, plateIron],
+[<item:appliedenergistics2:annihilation_core>, <item:minecraft:air>, <item:appliedenergistics2:formation_core>],
+[plateIron, <tag:appliedenergistics2:glass>, plateIron]]);
+
+//io_port
+craftingTable.removeByName("appliedenergistics2:network/blocks/io_port");
+craftingTable.addShaped("io_port", <item:appliedenergistics2:io_port>, [
+[<tag:appliedenergistics2:glass>, <tag:appliedenergistics2:glass>, <tag:appliedenergistics2:glass>],
+[<item:appliedenergistics2:drive>, <item:appliedenergistics2:fluix_glass_cable>, <item:appliedenergistics2:drive>],
+[plateIron, <item:appliedenergistics2:logic_processor>, plateIron]]);
+
+//vibration_chamber
+craftingTable.removeByName("appliedenergistics2:network/blocks/energy_vibration_chamber");
+craftingTable.addShaped("vibration_chamber", <item:appliedenergistics2:vibration_chamber>, [
+[plateIron, plateIron, plateIron],
+[plateIron, <item:minecraft:furnace>, plateIron],
+[plateIron, <item:appliedenergistics2:energy_acceptor>, plateIron]]);
 
 //ME fluid interface
 craftingTable.removeByName("appliedenergistics2:network/blocks/fluid_interfaces_interface");
-
-//Energy acceptor
-craftingTable.removeByName("appliedenergistics2:network/blocks/energy_energy_acceptor");
-
-//ME IO port
-craftingTable.removeByName("appliedenergistics2:network/blocks/io_port");
-
-//Spatial IO port
-craftingTable.removeByName("appliedenergistics2:network/blocks/spatial_io_port");
-
-//ME chest
-craftingTable.removeByName("appliedenergistics2:network/blocks/storage_chest");
-
-//Crystal growth accelerator
-craftingTable.removeByName("appliedenergistics2:network/blocks/crystal_processing_quartz_growth_accelerator");
-
-//Matter condenser
-craftingTable.removeByName("appliedenergistics2:network/blocks/io_condenser");
-
-//Charger
-craftingTable.removeByName("appliedenergistics2:network/blocks/crystal_processing_charger");
-
-//Vibration chamber
-craftingTable.removeByName("appliedenergistics2:network/blocks/energy_vibration_chamber");
-
-//Crafting unit
-craftingTable.removeByName("appliedenergistics2:network/crafting/cpu_crafting_unit");
-
-//Molecular assembler
-craftingTable.removeByName("appliedenergistics2:network/crafting/molecular_assembler");
-
-//Security station
-craftingTable.removeByName("appliedenergistics2:network/blocks/security_station");
+craftingTable.addShaped("fluid_interface", <item:appliedenergistics2:fluid_interface>, [
+[plateIron, dyeBlue, plateIron],
+[<item:appliedenergistics2:annihilation_core>, <item:minecraft:air>, <item:appliedenergistics2:formation_core>],
+[plateIron, dyeBlue, plateIron]]);
 
 //Light detector
 craftingTable.removeByName("appliedenergistics2:decorative/light_detector");

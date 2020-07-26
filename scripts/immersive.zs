@@ -6,6 +6,7 @@ val plateConstantan = <item:immersiveengineering:plate_constantan>;
 val plateLead = <item:immersiveengineering:plate_lead>;
 val plateElectrum = <item:immersiveengineering:plate_electrum>;
 val plateNickel = <item:immersiveengineering:plate_nickel>;
+val plateAlu = <item:immersiveengineering:plate_aluminum>;
 val redstone = <item:minecraft:redstone>;
 val glass = <tag:forge:glass>;
 val treated = <tag:forge:treated_wood>;
@@ -71,18 +72,21 @@ craftingTable.addShaped("connector_mv", <item:immersiveengineering:connector_mv>
 //Redstone engineering block
 craftingTable.removeByName("immersiveengineering:crafting/rs_engineering");
 craftingTable.addShaped("rs_engineering", <item:immersiveengineering:rs_engineering>, [
-	[plateIron, redstone, plateIron],
-	[redstone, plateCopper, redstone],
-	[plateIron, redstone, plateIron]
+	[plateAlu, redstone, plateAlu],
+	[redstone, <item:immersiveengineering:component_iron>, redstone],
+	[plateAlu, redstone, plateAlu]
 ]);
 
 //Light engineering block
 craftingTable.removeByName("immersiveengineering:crafting/light_engineering");
 craftingTable.addShaped("light_engineering", <item:immersiveengineering:light_engineering>, [
-	[plateIron, <item:immersiveengineering:component_iron>, plateIron],
+	[plateAlu, <item:immersiveengineering:component_iron>, plateAlu],
 	[plateCopper, plateCopper, plateCopper],
-	[plateIron, <item:immersiveengineering:component_iron>, plateIron]
+	[plateAlu, <item:immersiveengineering:component_iron>, plateAlu]
 ]);
+
+//Iron Mechanical Component
+craftingTable.removeByName("immersiveengineering:crafting/component_iron");
 
 //Conveyor
 craftingTable.removeByName("immersiveengineering:crafting/conveyor_basic");

@@ -25,6 +25,6 @@ minimap_biome = true
 minimap_blur = true
 #Adds NWSE compass inside minimap
 minimap_compass = true
-#Minimap will be circular instead of square
-minimap_circle = false
+#Minimap will not rotate
+minimap_locked_north = true
 

@@ -1,5 +1,5 @@
 {
-	id: 108,
+	id: 191,
 	filename: "powah",
 	order_index: 4,
 	title: "Powah",
@@ -11,10 +11,9 @@
 			y: -0.5d,
 			shape: "square",
 			description: ["Dielectric Paste is the most basic component for Powah."],
-			dependencies: [I;7],
-			id: 109,
+			id: 192,
 			tasks: [{
-				id: 110,
+				id: 193,
 				type: "item",
 				item: "powah:dielectric_paste",
 				count: 8
@@ -26,29 +25,25 @@
 			x: 1.0d,
 			y: -0.5d,
 			description: ["Nearly all Powah generators needs this casing."],
-			dependencies: [I;109],
-			id: 111,
-			tasks: [
-				{
-					id: 112,
-					type: "item",
-					item: "powah:dielectric_casing"
-				},
-				{
-					id: 142,
-					type: "item",
-					item: "powah:capacitor_basic",
-					count: 2
-				}
-			]
+			dependencies: [I;
+				192,
+				254
+			],
+			id: 194,
+			tasks: [{
+				id: 195,
+				type: "item",
+				item: "powah:capacitor_basic",
+				count: 2
+			}]
 		},
 		{
 			x: 2.5d,
 			y: -2.0d,
-			dependencies: [I;115],
-			id: 113,
+			dependencies: [I;198],
+			id: 196,
 			tasks: [{
-				id: 114,
+				id: 197,
 				type: "item",
 				item: "powah:energy_cell_starter"
 			}]
@@ -59,29 +54,25 @@
 			x: 1.0d,
 			y: -2.0d,
 			description: ["The Tiny Basic Capacitor is the main component for all Powah Starters generators."],
-			dependencies: [I;109],
-			id: 115,
-			tasks: [
-				{
-					id: 116,
-					type: "item",
-					item: "powah:capacitor_basic_tiny",
-					count: 2
-				},
-				{
-					id: 117,
-					type: "item",
-					item: "silents_mechanisms:stone_machine_frame"
-				}
-			]
+			dependencies: [I;
+				189,
+				192
+			],
+			id: 198,
+			tasks: [{
+				id: 199,
+				type: "item",
+				item: "powah:capacitor_basic_tiny",
+				count: 2
+			}]
 		},
 		{
 			x: 3.5d,
 			y: -2.0d,
-			dependencies: [I;115],
-			id: 118,
+			dependencies: [I;198],
+			id: 200,
 			tasks: [{
-				id: 119,
+				id: 201,
 				type: "item",
 				item: "powah:furnator_starter"
 			}]
@@ -89,10 +80,10 @@
 		{
 			x: 4.5d,
 			y: -2.0d,
-			dependencies: [I;115],
-			id: 120,
+			dependencies: [I;198],
+			id: 202,
 			tasks: [{
-				id: 121,
+				id: 203,
 				type: "item",
 				item: "powah:magmator_starter"
 			}]
@@ -100,10 +91,10 @@
 		{
 			x: 5.5d,
 			y: -2.0d,
-			dependencies: [I;115],
-			id: 122,
+			dependencies: [I;198],
+			id: 204,
 			tasks: [{
-				id: 123,
+				id: 205,
 				type: "item",
 				item: "powah:solar_panel_starter"
 			}]
@@ -111,10 +102,10 @@
 		{
 			x: 6.5d,
 			y: -2.0d,
-			dependencies: [I;115],
-			id: 124,
+			dependencies: [I;198],
+			id: 206,
 			tasks: [{
-				id: 125,
+				id: 207,
 				type: "item",
 				item: "powah:thermo_generator_starter"
 			}]
@@ -122,10 +113,10 @@
 		{
 			x: 7.5d,
 			y: -2.0d,
-			dependencies: [I;115],
-			id: 126,
+			dependencies: [I;198],
+			id: 208,
 			tasks: [{
-				id: 127,
+				id: 209,
 				type: "item",
 				item: "powah:ender_cell_starter"
 			}]
@@ -133,10 +124,10 @@
 		{
 			x: 8.5d,
 			y: -2.0d,
-			dependencies: [I;115],
-			id: 128,
+			dependencies: [I;198],
+			id: 210,
 			tasks: [{
-				id: 129,
+				id: 211,
 				type: "item",
 				item: "powah:energy_cable_starter"
 			}]
@@ -144,10 +135,10 @@
 		{
 			x: 9.5d,
 			y: -2.0d,
-			dependencies: [I;115],
-			id: 130,
+			dependencies: [I;198],
+			id: 212,
 			tasks: [{
-				id: 131,
+				id: 213,
 				type: "item",
 				item: "powah:ender_gate_starter"
 			}]
@@ -155,10 +146,10 @@
 		{
 			x: 10.5d,
 			y: -2.0d,
-			dependencies: [I;115],
-			id: 132,
+			dependencies: [I;198],
+			id: 214,
 			tasks: [{
-				id: 133,
+				id: 215,
 				type: "item",
 				item: "powah:reactor_starter"
 			}]
@@ -166,10 +157,10 @@
 		{
 			x: 11.5d,
 			y: -2.0d,
-			dependencies: [I;115],
-			id: 134,
+			dependencies: [I;198],
+			id: 216,
 			tasks: [{
-				id: 135,
+				id: 217,
 				type: "item",
 				item: "powah:player_transmitter_starter"
 			}]
@@ -177,10 +168,10 @@
 		{
 			x: 13.5d,
 			y: -2.0d,
-			dependencies: [I;115],
-			id: 136,
+			dependencies: [I;198],
+			id: 218,
 			tasks: [{
-				id: 137,
+				id: 219,
 				type: "item",
 				item: "powah:energy_hopper_starter"
 			}]
@@ -188,10 +179,10 @@
 		{
 			x: 14.5d,
 			y: -2.0d,
-			dependencies: [I;115],
-			id: 138,
+			dependencies: [I;198],
+			id: 220,
 			tasks: [{
-				id: 139,
+				id: 221,
 				type: "item",
 				item: "powah:energy_discharger_starter"
 			}]
@@ -199,10 +190,10 @@
 		{
 			x: 15.5d,
 			y: -2.0d,
-			dependencies: [I;115],
-			id: 140,
+			dependencies: [I;198],
+			id: 222,
 			tasks: [{
-				id: 141,
+				id: 223,
 				type: "item",
 				item: {
 					id: "powah:battery_starter",
@@ -215,12 +206,12 @@
 			x: 2.5d,
 			y: -0.5d,
 			dependencies: [I;
-				111,
-				113
+				194,
+				196
 			],
-			id: 143,
+			id: 224,
 			tasks: [{
-				id: 144,
+				id: 225,
 				type: "item",
 				item: "powah:energy_cell_basic"
 			}]
@@ -229,12 +220,12 @@
 			x: 3.5d,
 			y: -0.5d,
 			dependencies: [I;
-				111,
-				118
+				194,
+				200
 			],
-			id: 145,
+			id: 226,
 			tasks: [{
-				id: 146,
+				id: 227,
 				type: "item",
 				item: "powah:furnator_basic"
 			}]
@@ -243,12 +234,12 @@
 			x: 4.5d,
 			y: -0.5d,
 			dependencies: [I;
-				111,
-				120
+				194,
+				202
 			],
-			id: 147,
+			id: 228,
 			tasks: [{
-				id: 148,
+				id: 229,
 				type: "item",
 				item: "powah:magmator_basic"
 			}]
@@ -257,12 +248,12 @@
 			x: 5.5d,
 			y: -0.5d,
 			dependencies: [I;
-				111,
-				122
+				194,
+				204
 			],
-			id: 149,
+			id: 230,
 			tasks: [{
-				id: 150,
+				id: 231,
 				type: "item",
 				item: "powah:solar_panel_basic"
 			}]
@@ -271,12 +262,12 @@
 			x: 6.5d,
 			y: -0.5d,
 			dependencies: [I;
-				111,
-				124
+				194,
+				206
 			],
-			id: 151,
+			id: 232,
 			tasks: [{
-				id: 152,
+				id: 233,
 				type: "item",
 				item: "powah:thermo_generator_basic"
 			}]
@@ -285,12 +276,12 @@
 			x: 7.5d,
 			y: -0.5d,
 			dependencies: [I;
-				111,
-				126
+				194,
+				208
 			],
-			id: 153,
+			id: 234,
 			tasks: [{
-				id: 154,
+				id: 235,
 				type: "item",
 				item: "powah:ender_cell_basic"
 			}]
@@ -299,12 +290,12 @@
 			x: 8.5d,
 			y: -0.5d,
 			dependencies: [I;
-				111,
-				128
+				194,
+				210
 			],
-			id: 155,
+			id: 236,
 			tasks: [{
-				id: 156,
+				id: 237,
 				type: "item",
 				item: "powah:energy_cable_basic"
 			}]
@@ -313,12 +304,12 @@
 			x: 9.5d,
 			y: -0.5d,
 			dependencies: [I;
-				111,
-				130
+				194,
+				212
 			],
-			id: 157,
+			id: 238,
 			tasks: [{
-				id: 158,
+				id: 239,
 				type: "item",
 				item: "powah:ender_gate_basic"
 			}]
@@ -327,12 +318,12 @@
 			x: 12.5d,
 			y: -0.5d,
 			dependencies: [I;
-				111,
-				171
+				194,
+				252
 			],
-			id: 159,
+			id: 240,
 			tasks: [{
-				id: 160,
+				id: 241,
 				type: "item",
 				item: "powah:energizing_rod_basic"
 			}]
@@ -341,12 +332,12 @@
 			x: 10.5d,
 			y: -0.5d,
 			dependencies: [I;
-				111,
-				132
+				194,
+				214
 			],
-			id: 161,
+			id: 242,
 			tasks: [{
-				id: 162,
+				id: 243,
 				type: "item",
 				item: "powah:reactor_basic"
 			}]
@@ -355,12 +346,12 @@
 			x: 13.5d,
 			y: -0.5d,
 			dependencies: [I;
-				111,
-				136
+				194,
+				218
 			],
-			id: 163,
+			id: 244,
 			tasks: [{
-				id: 164,
+				id: 245,
 				type: "item",
 				item: "powah:energy_hopper_basic"
 			}]
@@ -369,12 +360,12 @@
 			x: 14.5d,
 			y: -0.5d,
 			dependencies: [I;
-				111,
-				138
+				194,
+				220
 			],
-			id: 165,
+			id: 246,
 			tasks: [{
-				id: 166,
+				id: 247,
 				type: "item",
 				item: "powah:energy_discharger_basic"
 			}]
@@ -383,12 +374,12 @@
 			x: 15.5d,
 			y: -0.5d,
 			dependencies: [I;
-				111,
-				140
+				194,
+				222
 			],
-			id: 167,
+			id: 248,
 			tasks: [{
-				id: 168,
+				id: 249,
 				type: "item",
 				item: {
 					id: "powah:battery_basic",
@@ -401,12 +392,12 @@
 			x: 11.5d,
 			y: -0.5d,
 			dependencies: [I;
-				111,
-				134
+				194,
+				216
 			],
-			id: 169,
+			id: 250,
 			tasks: [{
-				id: 170,
+				id: 251,
 				type: "item",
 				item: "powah:player_transmitter_basic"
 			}]
@@ -414,10 +405,10 @@
 		{
 			x: 12.5d,
 			y: -2.0d,
-			dependencies: [I;115],
-			id: 171,
+			dependencies: [I;198],
+			id: 252,
 			tasks: [{
-				id: 172,
+				id: 253,
 				type: "item",
 				item: "powah:energizing_rod_starter"
 			}]

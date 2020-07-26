@@ -13,7 +13,10 @@
 				"Compressed Iron is much more tough than Iron, with a pickaxe made of this material you can mine obsidian.",
 				"You can make compressed iron by making an explosion next to some iron ingots on the ground. Note that some iron ingots will be lost during the explosion."
 			],
-			dependencies: [I;37],
+			dependencies: [I;
+				37,
+				257
+			],
 			id: 40,
 			tasks: [{
 				id: 41,
@@ -62,15 +65,18 @@
 			dependencies: [I;66],
 			id: 49,
 			tasks: [{
-				id: 50,
-				type: "item",
-				item: "immersiveengineering:cokebrick",
-				count: 27
+				id: 256,
+				type: "advancement",
+				title: "Coke Oven",
+				icon: "immersiveengineering:cokebrick",
+				advancement: "immersiveengineering:mb_cokeoven",
+				criterion: ""
 			}]
 		},
 		{
+			title: "Redstone Dust",
 			x: 4.5d,
-			y: 0.5d,
+			y: -0.5d,
 			description: ["Yeah ! You can make vanilla farm and vanilla system like item filter with hoppers !"],
 			dependencies: [I;46],
 			id: 52,
@@ -82,6 +88,7 @@
 			}]
 		},
 		{
+			title: "Aluminium Ingots",
 			x: 4.5d,
 			y: -1.5d,
 			dependencies: [I;46],
@@ -94,6 +101,7 @@
 			}]
 		},
 		{
+			title: "Silver Ingots",
 			x: 4.5d,
 			y: 1.5d,
 			dependencies: [I;
@@ -141,8 +149,9 @@
 			}]
 		},
 		{
+			title: "Nickel Ingots",
 			x: 4.5d,
-			y: -0.5d,
+			y: 0.5d,
 			dependencies: [I;46],
 			id: 70,
 			tasks: [{
@@ -189,6 +198,148 @@
 				type: "item",
 				item: "kubejs:ravenite_chunks",
 				count: 16
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 0.0d,
+			description: ["TNT is life, you will need some to make compressed iron ingots."],
+			id: 257,
+			tasks: [{
+				id: 258,
+				type: "item",
+				item: "minecraft:tnt"
+			}]
+		},
+		{
+			title: "Creosote Oil",
+			x: 3.0d,
+			y: -3.0d,
+			description: ["Creosote is used to make treated wood, which is needed for most Immersive Engineering machines."],
+			dependencies: [I;49],
+			id: 259,
+			tasks: [{
+				id: 260,
+				type: "item",
+				item: "immersiveengineering:creosote_bucket"
+			}]
+		},
+		{
+			title: "Treated Wood",
+			x: 4.0d,
+			y: -3.0d,
+			dependencies: [I;259],
+			id: 261,
+			tasks: [{
+				id: 262,
+				type: "item",
+				item: "immersiveengineering:treated_wood_horizontal",
+				count: 16
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -3.0d,
+			description: ["The Engineer workbench is used to make usefull items like Meta Press molds."],
+			dependencies: [I;261],
+			id: 263,
+			tasks: [{
+				id: 264,
+				type: "item",
+				item: "immersiveengineering:workbench"
+			}]
+		},
+		{
+			title: "Iron Component",
+			x: 6.0d,
+			y: -2.5d,
+			description: ["The most basic component used for Immersive Engineering items."],
+			dependencies: [I;263],
+			id: 265,
+			tasks: [{
+				id: 266,
+				type: "item",
+				item: "immersiveengineering:component_iron",
+				count: 4
+			}]
+		},
+		{
+			title: "Light Engineering Block",
+			x: 6.0d,
+			y: -1.5d,
+			description: ["Used in most Immersive Engineering multiblocks machines."],
+			dependencies: [I;
+				54,
+				265
+			],
+			id: 267,
+			tasks: [{
+				id: 268,
+				type: "item",
+				item: "immersiveengineering:light_engineering",
+				count: 2
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -0.5d,
+			dependencies: [I;52],
+			id: 269,
+			tasks: [{
+				id: 270,
+				type: "item",
+				item: "immersiveengineering:rs_engineering"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -1.0d,
+			description: ["With the metal press, you can make plates for all ingots at lower costs, it can also be used to make various items such as rods and wires."],
+			dependencies: [I;
+				267,
+				269
+			],
+			id: 271,
+			tasks: [{
+				id: 273,
+				type: "advancement",
+				title: "Metal Press",
+				icon: "minecraft:piston",
+				advancement: "immersiveengineering:mb_metalpress",
+				criterion: ""
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -4.5d,
+			dependencies: [I;263],
+			id: 274,
+			tasks: [{
+				id: 275,
+				type: "item",
+				item: "immersiveengineering:mold_plate"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -4.5d,
+			dependencies: [I;263],
+			id: 276,
+			tasks: [{
+				id: 277,
+				type: "item",
+				item: "immersiveengineering:mold_rod"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -4.5d,
+			dependencies: [I;263],
+			id: 278,
+			tasks: [{
+				id: 279,
+				type: "item",
+				item: "immersiveengineering:mold_wire"
 			}]
 		}
 	]

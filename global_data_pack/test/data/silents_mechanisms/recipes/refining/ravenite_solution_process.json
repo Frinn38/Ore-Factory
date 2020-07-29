@@ -1,0 +1,26 @@
+{
+    "type": "silents_mechanisms:refining",
+    "process_time": 100,
+    "ingredient": {
+        "fluid": "kubejs:ravenite_solution",
+        "amount": 1000
+    },
+    "results": [
+        {
+            "fluid": "kubejs:aluminum_fluid",
+            "amount": 3000
+        },
+        {
+            "fluid": "kubejs:redstone_fluid",
+            "amount": 3000
+        },
+        {
+            "fluid": "kubejs:copper_fluid",
+            "amount": 2000
+        },
+        {
+            "fluid": "minecraft:lava",
+            "amount": 1000
+        }
+    ]
+}

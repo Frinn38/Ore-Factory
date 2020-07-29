@@ -1,0 +1,26 @@
+{
+    "type": "silents_mechanisms:refining",
+    "process_time": 100,
+    "ingredient": {
+        "fluid": "kubejs:bananium_solution",
+        "amount": 1000
+    },
+    "results": [
+        {
+            "fluid": "kubejs:lead_fluid",
+            "amount": 3000
+        },
+        {
+            "fluid": "kubejs:nickel_fluid",
+            "amount": 2000
+        },
+        {
+            "fluid": "kubejs:gold_fluid",
+            "amount": 2000
+        },
+        {
+            "fluid": "kubejs:osmium_fluid",
+            "amount": 1000
+        }
+    ]
+}

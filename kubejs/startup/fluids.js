@@ -9,5 +9,16 @@ events.listen('fluid.registry', function (event) {
   event.create("saphirium_solution").color(1653241).luminosity(0);
   event.create("certus_quartz_solution").color(12117759).luminosity(0);
   event.create("fluix_solution").color(9511666).luminosity(0);
-  event.create("redstone_fluid").color(16711680).luminosity(0);
+  event.create("ender_fluid").color(545332).luminosity(0);
+  event.create("redstone_fluid").textureThick(16711680).luminosity(0);
+  event.create("iron_fluid").textureThick(12758721).luminosity(0);
+  event.create("copper_fluid").textureThick(16749824).luminosity(0);
+  event.create("nickel_fluid").textureThick(15002504).luminosity(0);
+  event.create("silver_fluid").textureThick(11124459).luminosity(0);
+  event.create("osmium_fluid").textureThick(3640314).luminosity(0);
+  event.create("tin_fluid").textureThick(8365557).luminosity(0);
+  event.create("uraninite_fluid").textureThick(2817792).luminosity(0);
+  event.create("lead_fluid").textureThick(3413401).luminosity(0);
+  event.create("gold_fluid").textureThick(13172480).luminosity(0);
+  event.create("aluminum_fluid").textureThick(12182522).luminosity(0);
 })

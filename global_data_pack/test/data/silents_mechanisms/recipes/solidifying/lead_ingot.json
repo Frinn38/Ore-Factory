@@ -1,0 +1,12 @@
+{
+    "type": "silents_mechanisms:solidifying",
+    "process_time": 200,
+    "ingredient": {
+        "fluid": "kubejs:lead_fluid",
+        "amount": 1000
+    },
+    "result": {
+        "item": "silents_mechanisms:lead_ingot",
+        "count": 1
+    }
+}

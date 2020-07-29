@@ -1,0 +1,12 @@
+{
+    "type": "silents_mechanisms:solidifying",
+    "process_time": 200,
+    "ingredient": {
+        "fluid": "kubejs:tin_fluid",
+        "amount": 1000
+    },
+    "result": {
+        "item": "silents_mechanisms:tin_ingot",
+        "count": 1
+    }
+}

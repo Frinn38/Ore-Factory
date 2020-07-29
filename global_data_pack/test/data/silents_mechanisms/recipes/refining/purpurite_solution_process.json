@@ -1,0 +1,26 @@
+{
+    "type": "silents_mechanisms:refining",
+    "process_time": 100,
+    "ingredient": {
+        "fluid": "kubejs:purpurite_solution",
+        "amount": 1000
+    },
+    "results": [
+        {
+            "fluid": "kubejs:silver_fluid",
+            "amount": 3000
+        },
+        {
+            "fluid": "kubejs:tin_fluid",
+            "amount": 2000
+        },
+        {
+            "fluid": "kubejs:iron_fluid",
+            "amount": 2000
+        },
+        {
+            "fluid": "kubejs:ender_fluid",
+            "amount": 1000
+        }
+    ]
+}

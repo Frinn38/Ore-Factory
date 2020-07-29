@@ -1,0 +1,22 @@
+{
+    "type": "silents_mechanisms:refining",
+    "process_time": 100,
+    "ingredient": {
+        "fluid": "kubejs:olivium_solution",
+        "amount": 1000
+    },
+    "results": [
+        {
+            "fluid": "kubejs:tin_fluid",
+            "amount": 3000
+        },
+        {
+            "fluid": "kubejs:redstone_fluid",
+            "amount": 3000
+        },
+        {
+            "fluid": "kubejs:uraninite_fluid",
+            "amount": 2000
+        }
+    ]
+}
